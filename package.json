@@ -1,0 +1,15 @@
+{
+  "name": "datapipeline",
+  "version": "1.0.0",
+  "description": "TradingView Indicator Scraper Datapipeline",
+  "main": "pipeline.js",
+  "scripts": {
+    "start": "node pipeline.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
