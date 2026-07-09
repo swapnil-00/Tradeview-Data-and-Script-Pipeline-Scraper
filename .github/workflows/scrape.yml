@@ -8,21 +8,23 @@ on:
   workflow_dispatch:
     inputs:
       batch_size:
-        description: "How many indicators to process this run"
+        description: "Indicators per run (each chained run does this many)"
         required: false
-        default: "40"
+        default: "50"
       start_override:
-        description: "--from : start index (leave blank to resume from the saved cursor)"
+        description: "Start index. Set this to run a bounded auto-chain (does NOT touch the cursor). Leave blank to resume the scheduled cursor."
         required: false
         default: ""
       end_override:
-        description: "--to : end index (leave blank to use batch_size from the start). Setting either from/to = one-off run, does NOT move the cursor."
+        description: "FINAL end index of the chained job (e.g. 5000). The run walks start→end in batch_size steps, auto-triggering the next batch each time. Blank = go to the last index."
         required: false
         default: ""
 
-# Let the auto GITHUB_TOKEN push the committed outputs back to the repo.
+# contents: write -> push the cursor commit. actions: write -> let this run
+# dispatch the next chained batch of itself (workflow_dispatch self-trigger).
 permissions:
   contents: write
+  actions: write
 
 # Never let two runs overlap (schedule + manual). The second one waits.
 concurrency:
@@ -115,7 +117,13 @@ jobs:
       - name: Seed status history (merge baseline)
         run: node ci/merge_status.js
 
-      # Work out which slice of indices to do this run, from the saved cursor.
+      # Work out which slice of indices to do this run.
+      #   * Manual (start_override set): a BOUNDED auto-chain. Do batch_size
+      #     indices from start_override, then the "Trigger next" step re-dispatches
+      #     with start = this batch's end + 1, until we pass end_override. The
+      #     saved cursor is never touched, so the schedule keeps its own place.
+      #   * Scheduled (no start_override): resume from the saved cursor, one batch,
+      #     and advance the cursor. No chaining.
       - name: Plan this batch
         id: plan
         run: |
@@ -123,54 +131,66 @@ jobs:
           START=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | head -1)
           END=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | tail -1)
           BATCH="${{ github.event.inputs.batch_size }}"
-          BATCH="${BATCH:-40}"
+          BATCH="${BATCH:-50}"
           CURSOR_FILE="ci/state/cursor.txt"
 
           FROM_IN="${{ github.event.inputs.start_override }}"
           TO_IN="${{ github.event.inputs.end_override }}"
 
-          # A manual run that pins --from and/or --to is a one-off: it must NOT
-          # move the saved cursor, so the automatic schedule keeps its place.
-          if [ -n "$FROM_IN" ] || [ -n "$TO_IN" ]; then
-            MANUAL="true"
-          else
-            MANUAL="false"
-          fi
-
-          # --from : explicit start, else resume from the cursor, else the very first index.
           if [ -n "$FROM_IN" ]; then
-            CUR="$FROM_IN"
-          elif [ -f "$CURSOR_FILE" ] && [ -s "$CURSOR_FILE" ]; then
-            CUR=$(tr -dc '0-9' < "$CURSOR_FILE")
-          else
-            CUR="$START"
-          fi
+            # ---------- Manual bounded chain ----------
+            MANUAL="true"
+            FINAL_END="${TO_IN:-$END}"
+            if [ "$FINAL_END" -gt "$END" ]; then FINAL_END="$END"; fi
 
-          if [ "$CUR" -gt "$END" ]; then
-            echo "Start $CUR is past the last index $END — nothing left to scrape."
-            echo "done=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
+            if [ "$FROM_IN" -gt "$FINAL_END" ]; then
+              echo "Start $FROM_IN is past target end $FINAL_END — chain complete."
+              echo "done=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
 
-          FROM="$CUR"
-          # --to : explicit end, else start + batch_size - 1. Always capped at END.
-          if [ -n "$TO_IN" ]; then
-            TO="$TO_IN"
+            FROM="$FROM_IN"
+            TO=$(( FROM + BATCH - 1 ))
+            if [ "$TO" -gt "$FINAL_END" ]; then TO="$FINAL_END"; fi
+            NEXT=$(( TO + 1 ))
+            if [ "$NEXT" -le "$FINAL_END" ]; then CHAIN="true"; else CHAIN="false"; fi
+
+            echo "done=false"           >> "$GITHUB_OUTPUT"
+            echo "manual=$MANUAL"        >> "$GITHUB_OUTPUT"
+            echo "chain=$CHAIN"          >> "$GITHUB_OUTPUT"
+            echo "from=$FROM"            >> "$GITHUB_OUTPUT"
+            echo "to=$TO"                >> "$GITHUB_OUTPUT"
+            echo "next=$NEXT"            >> "$GITHUB_OUTPUT"
+            echo "final_end=$FINAL_END"  >> "$GITHUB_OUTPUT"
+            echo "batch=$BATCH"          >> "$GITHUB_OUTPUT"
+            echo "Manual chain: $FROM..$TO of target $FROM_IN..$FINAL_END (more to come: $CHAIN)"
           else
+            # ---------- Scheduled: resume from cursor ----------
+            MANUAL="false"
+            if [ -f "$CURSOR_FILE" ] && [ -s "$CURSOR_FILE" ]; then
+              CUR=$(tr -dc '0-9' < "$CURSOR_FILE")
+            else
+              CUR="$START"
+            fi
+
+            if [ "$CUR" -gt "$END" ]; then
+              echo "Cursor $CUR is past the last index $END — nothing left to scrape."
+              echo "done=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+
+            FROM="$CUR"
             TO=$(( CUR + BATCH - 1 ))
-          fi
-          if [ "$TO" -gt "$END" ]; then TO="$END"; fi
-          if [ "$TO" -lt "$FROM" ]; then
-            echo "::error::--to ($TO) is less than --from ($FROM)."
-            exit 1
-          fi
+            if [ "$TO" -gt "$END" ]; then TO="$END"; fi
 
-          echo "done=false"          >> "$GITHUB_OUTPUT"
-          echo "manual=$MANUAL"      >> "$GITHUB_OUTPUT"
-          echo "from=$FROM"          >> "$GITHUB_OUTPUT"
-          echo "to=$TO"              >> "$GITHUB_OUTPUT"
-          echo "next=$(( TO + 1 ))"  >> "$GITHUB_OUTPUT"
-          echo "Processing indices $FROM..$TO (last index is $END, manual=$MANUAL)"
+            echo "done=false"          >> "$GITHUB_OUTPUT"
+            echo "manual=$MANUAL"      >> "$GITHUB_OUTPUT"
+            echo "chain=false"         >> "$GITHUB_OUTPUT"
+            echo "from=$FROM"          >> "$GITHUB_OUTPUT"
+            echo "to=$TO"              >> "$GITHUB_OUTPUT"
+            echo "next=$(( TO + 1 ))"  >> "$GITHUB_OUTPUT"
+            echo "Scheduled: indices $FROM..$TO (last index is $END)"
+          fi
 
       - name: Run scraper
         id: run
@@ -196,6 +216,22 @@ jobs:
       - name: Advance cursor
         if: steps.plan.outputs.done == 'false' && steps.run.outcome == 'success' && steps.plan.outputs.manual == 'false'
         run: echo "${{ steps.plan.outputs.next }}" > ci/state/cursor.txt
+
+      # Bounded auto-chain: after a clean batch, fire the next batch of the SAME
+      # manual job (start = this batch's end + 1, same final end + batch size).
+      # Stops automatically once we pass end_override (chain=false). Only a clean
+      # run chains, so a crash halts the chain there and you can re-dispatch from
+      # that index. GITHUB_TOKEN is allowed to trigger workflow_dispatch.
+      - name: Trigger next chained batch
+        if: steps.plan.outputs.chain == 'true' && steps.run.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run scrape.yml --ref main \
+            -f start_override=${{ steps.plan.outputs.next }} \
+            -f end_override=${{ steps.plan.outputs.final_end }} \
+            -f batch_size=${{ steps.plan.outputs.batch }}
+          echo "Queued next batch: ${{ steps.plan.outputs.next }} → ${{ steps.plan.outputs.final_end }}"
 
       # Push this run's scripts, CSVs, and the updated status master to your
       # Google Drive (your 5 TB). Runs even if the scraper failed, so partial
