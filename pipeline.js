@@ -1065,14 +1065,40 @@ async function main() {
 
     console.log("🌐 Launching browser...");
     const userDataDir = path.resolve(__dirname, "User_Data");
-    const context = await chromium.launchPersistentContext(userDataDir, {
+
+    // Robustness: a User_Data profile restored from another machine (e.g. the
+    // GitHub Actions cache, or a crashed local run) carries stale Chromium
+    // "singleton" lock files. Chromium then thinks the profile is in use by
+    // another process/computer and refuses to launch ("profile appears to be in
+    // use"), killing the whole batch. Remove those locks before every launch.
+    for (const lock of ["SingletonLock", "SingletonSocket", "SingletonCookie"]) {
+        try { fs.rmSync(path.join(userDataDir, lock), { force: true, recursive: true }); } catch { }
+    }
+
+    const launchOpts = {
         headless: false,
         args: ["--start-maximized", "--disable-blink-features=AutomationControlled", "--disable-popup-blocking"],
         viewport: { width: 1920, height: 1080 },
         userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
         permissions: ["clipboard-read", "clipboard-write"],
         acceptDownloads: true,
-    });
+    };
+    // Retry the launch a couple of times — transient CI hiccups shouldn't fail
+    // the whole run before a single indicator is even attempted.
+    let context;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            context = await chromium.launchPersistentContext(userDataDir, launchOpts);
+            break;
+        } catch (e) {
+            console.error(`   ⚠️ Browser launch attempt ${attempt}/3 failed: ${e.message}`);
+            for (const lock of ["SingletonLock", "SingletonSocket", "SingletonCookie"]) {
+                try { fs.rmSync(path.join(userDataDir, lock), { force: true, recursive: true }); } catch { }
+            }
+            if (attempt === 3) throw e;
+            await new Promise(r => setTimeout(r, 3000));
+        }
+    }
 
     await context.addInitScript(() => {
         Object.defineProperty(navigator, "webdriver", { get: () => false });

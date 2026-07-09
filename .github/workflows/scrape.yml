@@ -179,6 +179,10 @@ jobs:
           TRADINGVIEW_EMAIL: ${{ secrets.TRADINGVIEW_EMAIL }}
           TRADINGVIEW_PASSWORD: ${{ secrets.TRADINGVIEW_PASSWORD }}
         run: |
+          # Drop stale Chromium singleton locks that a cross-machine cached
+          # profile carries, otherwise Chromium refuses to launch ("profile
+          # appears to be in use by another process on another computer").
+          rm -f User_Data/Singleton* 2>/dev/null || true
           # Give Xvfb a real 1920x1080x24 screen so --start-maximized and the
           # 1920x1080 viewport render at full size (the xvfb-run default is a
           # tiny 8-bit screen, which can break TradingView's layout).
