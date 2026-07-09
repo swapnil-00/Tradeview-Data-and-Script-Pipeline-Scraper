@@ -48,9 +48,9 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: User_Data
-          key: tv-user-data-${{ github.run_id }}
+          key: tv-user-data-v2-${{ github.run_id }}
           restore-keys: |
-            tv-user-data-
+            tv-user-data-v2-
 
       # Cache the Playwright browser binary so installs are fast after the first run.
       - name: Cache Playwright browsers
@@ -236,7 +236,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: User_Data
-          key: tv-user-data-${{ github.run_id }}
+          key: tv-user-data-v2-${{ github.run_id }}
 
       # Only the tiny resume cursor goes to Git now — the heavy scraped output
       # lives on Google Drive, so `main` stays small and fast to clone.
