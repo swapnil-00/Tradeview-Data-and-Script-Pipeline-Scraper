@@ -1,0 +1,22 @@
+node_modules/
+.env
+User_Data/
+# Plaintext session must NEVER be committed. Only the encrypted ci/session.enc is.
+session.json
+ci/session.json
+Logs/
+debug/
+*.png
+# Finalop1lack holds scraped output — never committed. The workflow uploads it
+# to Google Drive (gdrive:Finalop1lack) instead. Empty dirs kept via .gitkeep.
+Finalop1lack/
+# Keep only the empty output folders (via .gitkeep); ignore ALL output files
+# (including download_status.csv directly under Finalop1lack/).
+!Finalop1lack/
+Finalop1lack/*
+!Finalop1lack/script/
+!Finalop1lack/csv/
+Finalop1lack/script/*
+Finalop1lack/csv/*
+!Finalop1lack/script/.gitkeep
+!Finalop1lack/csv/.gitkeep

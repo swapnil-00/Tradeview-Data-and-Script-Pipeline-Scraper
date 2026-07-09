@@ -1,0 +1,5 @@
+1. Parabolic SAR + EMA 200 + MACD Signals
+2. Trailing Stop Loss Indicator by KıvanÇ fr3762
+3. RSI + BB (EMA) + Dispersion (2.0)
+4. EMA Slope + EMA Cross Strategy (by ChartArt)
+5. Stochastic Momentum Index _ UCSgears

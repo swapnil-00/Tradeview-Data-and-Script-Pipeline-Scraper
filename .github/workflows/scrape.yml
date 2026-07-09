@@ -1,0 +1,259 @@
+name: TradingView Scraper
+
+# Runs on a schedule AND lets you trigger it by hand from the Actions tab.
+on:
+  schedule:
+    # Every 6 hours (UTC). GitHub cron is UTC-only and may start 10-30 min late.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "How many indicators to process this run"
+        required: false
+        default: "40"
+      start_override:
+        description: "--from : start index (leave blank to resume from the saved cursor)"
+        required: false
+        default: ""
+      end_override:
+        description: "--to : end index (leave blank to use batch_size from the start). Setting either from/to = one-off run, does NOT move the cursor."
+        required: false
+        default: ""
+
+# Let the auto GITHUB_TOKEN push the committed outputs back to the repo.
+permissions:
+  contents: write
+
+# Never let two runs overlap (schedule + manual). The second one waits.
+concurrency:
+  group: tv-scraper
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    # Hard ceiling below the 6-hour GitHub limit so a stuck run can't burn a whole slot.
+    timeout-minutes: 330
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Restore the most recent logged-in Chromium profile so we skip the login form.
+      - name: Restore browser profile (login session)
+        uses: actions/cache/restore@v4
+        with:
+          path: User_Data
+          key: tv-user-data-${{ github.run_id }}
+          restore-keys: |
+            tv-user-data-
+
+      # Cache the Playwright browser binary so installs are fast after the first run.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package.json') }}
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb rclone
+          npm install
+          npx playwright install --with-deps chromium
+
+      # If the cache missed (first run, or evicted after ~7 days idle), inject the
+      # committed encrypted session (ci/session.enc) into a fresh profile so the
+      # runner starts logged in — avoiding a cold login from GitHub's flagged
+      # datacenter IP. Chromium re-encrypts the cookies Linux-native here, which a
+      # raw Windows profile copy could not do (its cookie key is DPAPI-locked).
+      - name: Seed login session (if no cached profile)
+        env:
+          SESSION_ENCRYPTION_KEY: ${{ secrets.SESSION_ENCRYPTION_KEY }}
+        run: |
+          if [ -d "User_Data/Default" ]; then
+            echo "Cached logged-in profile present — using it."
+          elif [ -f "ci/session.enc" ] && [ -n "$SESSION_ENCRYPTION_KEY" ]; then
+            echo "No cached profile — seeding session from ci/session.enc."
+            xvfb-run -a --server-args="-screen 0 1920x1080x24" node ci/seed_import.js
+          else
+            echo "::warning::No cached profile and no usable seed — will attempt a fresh login (may be challenged)."
+          fi
+
+      # Write the rclone config (Google Drive OAuth token) from a Secret so the
+      # runner can upload outputs to your Drive. The Secret is base64 of your
+      # local rclone.conf and must contain a remote named [gdrive].
+      - name: Configure rclone (Google Drive)
+        env:
+          RCLONE_CONF_BASE64: ${{ secrets.RCLONE_CONF_BASE64 }}
+        run: |
+          if [ -z "$RCLONE_CONF_BASE64" ]; then
+            echo "::error::RCLONE_CONF_BASE64 secret is missing — add it (see SETUP_GITHUB_ACTIONS.md)."
+            exit 1
+          fi
+          mkdir -p ~/.config/rclone
+          echo "$RCLONE_CONF_BASE64" | base64 -d > ~/.config/rclone/rclone.conf
+          rclone --config ~/.config/rclone/rclone.conf listremotes
+
+      # Pull the cumulative status master down first so pipeline.js merges into
+      # it instead of overwriting the Drive copy with only this batch's rows.
+      - name: Restore status master from Drive
+        run: |
+          mkdir -p Finalop1lack
+          rclone copy "gdrive:Finalop1lack/download_status.csv" Finalop1lack/ \
+            --config ~/.config/rclone/rclone.conf 2>/dev/null || \
+            echo "No existing download_status.csv on Drive yet (first run) — starting fresh."
+
+      # Work out which slice of indices to do this run, from the saved cursor.
+      - name: Plan this batch
+        id: plan
+        run: |
+          INPUT="InputForScript/unique_indicator_names.txt"
+          START=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | head -1)
+          END=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | tail -1)
+          BATCH="${{ github.event.inputs.batch_size }}"
+          BATCH="${BATCH:-40}"
+          CURSOR_FILE="ci/state/cursor.txt"
+
+          FROM_IN="${{ github.event.inputs.start_override }}"
+          TO_IN="${{ github.event.inputs.end_override }}"
+
+          # A manual run that pins --from and/or --to is a one-off: it must NOT
+          # move the saved cursor, so the automatic schedule keeps its place.
+          if [ -n "$FROM_IN" ] || [ -n "$TO_IN" ]; then
+            MANUAL="true"
+          else
+            MANUAL="false"
+          fi
+
+          # --from : explicit start, else resume from the cursor, else the very first index.
+          if [ -n "$FROM_IN" ]; then
+            CUR="$FROM_IN"
+          elif [ -f "$CURSOR_FILE" ] && [ -s "$CURSOR_FILE" ]; then
+            CUR=$(tr -dc '0-9' < "$CURSOR_FILE")
+          else
+            CUR="$START"
+          fi
+
+          if [ "$CUR" -gt "$END" ]; then
+            echo "Start $CUR is past the last index $END — nothing left to scrape."
+            echo "done=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          FROM="$CUR"
+          # --to : explicit end, else start + batch_size - 1. Always capped at END.
+          if [ -n "$TO_IN" ]; then
+            TO="$TO_IN"
+          else
+            TO=$(( CUR + BATCH - 1 ))
+          fi
+          if [ "$TO" -gt "$END" ]; then TO="$END"; fi
+          if [ "$TO" -lt "$FROM" ]; then
+            echo "::error::--to ($TO) is less than --from ($FROM)."
+            exit 1
+          fi
+
+          echo "done=false"          >> "$GITHUB_OUTPUT"
+          echo "manual=$MANUAL"      >> "$GITHUB_OUTPUT"
+          echo "from=$FROM"          >> "$GITHUB_OUTPUT"
+          echo "to=$TO"              >> "$GITHUB_OUTPUT"
+          echo "next=$(( TO + 1 ))"  >> "$GITHUB_OUTPUT"
+          echo "Processing indices $FROM..$TO (last index is $END, manual=$MANUAL)"
+
+      - name: Run scraper
+        id: run
+        if: steps.plan.outputs.done == 'false'
+        env:
+          TRADINGVIEW_EMAIL: ${{ secrets.TRADINGVIEW_EMAIL }}
+          TRADINGVIEW_PASSWORD: ${{ secrets.TRADINGVIEW_PASSWORD }}
+        run: |
+          # Give Xvfb a real 1920x1080x24 screen so --start-maximized and the
+          # 1920x1080 viewport render at full size (the xvfb-run default is a
+          # tiny 8-bit screen, which can break TradingView's layout).
+          xvfb-run -a --server-args="-screen 0 1920x1080x24" node pipeline.js \
+            --from ${{ steps.plan.outputs.from }} \
+            --to ${{ steps.plan.outputs.to }} \
+            --run both
+
+      # Only advance the cursor if the scraper exited cleanly, so a fatal
+      # crash retries the same slice next time instead of skipping it.
+      - name: Advance cursor
+        if: steps.plan.outputs.done == 'false' && steps.run.outcome == 'success' && steps.plan.outputs.manual == 'false'
+        run: echo "${{ steps.plan.outputs.next }}" > ci/state/cursor.txt
+
+      # Push this run's scripts, CSVs, and the updated status master to your
+      # Google Drive (your 5 TB). Runs even if the scraper failed, so partial
+      # work is never lost. `copy` uploads only new/changed files and never
+      # deletes anything already on Drive.
+      - name: Upload outputs to Google Drive
+        if: always()
+        run: |
+          rclone copy Finalop1lack "gdrive:Finalop1lack" \
+            --config ~/.config/rclone/rclone.conf \
+            --transfers 4 --checkers 8 --drive-chunk-size 64M \
+            --fast-list --stats-one-line --stats 15s -v
+          echo "Uploaded to gdrive:Finalop1lack"
+
+      # Progress at a glance on the run's Summary tab — no need to read logs.
+      - name: Write run summary
+        if: always()
+        run: |
+          INPUT="InputForScript/unique_indicator_names.txt"
+          END=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | tail -1)
+          START=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | head -1)
+          NEXT=$(tr -dc '0-9' < ci/state/cursor.txt 2>/dev/null || echo "?")
+          SCRIPTS=$(find Finalop1lack/script -type f ! -name '.gitkeep' 2>/dev/null | wc -l)
+          CSVS=$(find Finalop1lack/csv -type f ! -name '.gitkeep' 2>/dev/null | wc -l)
+          {
+            echo "## TradingView scrape run"
+            echo ""
+            echo "| Field | Value |"
+            echo "|---|---|"
+            echo "| This batch | ${{ steps.plan.outputs.from }} – ${{ steps.plan.outputs.to }} |"
+            echo "| Scraper outcome | ${{ steps.run.outcome }} |"
+            echo "| Cursor now at (next index) | $NEXT |"
+            echo "| Overall range | $START – $END |"
+            echo "| Pine scripts this batch | $SCRIPTS |"
+            echo "| CSVs this batch | $CSVS |"
+            echo "| Output destination | Google Drive: \`gdrive:Finalop1lack\` |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # Persist this run's (possibly freshly logged-in) profile for the next run.
+      - name: Save browser profile
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: User_Data
+          key: tv-user-data-${{ github.run_id }}
+
+      # Only the tiny resume cursor goes to Git now — the heavy scraped output
+      # lives on Google Drive, so `main` stays small and fast to clone.
+      - name: Commit cursor
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ci/state/cursor.txt
+          if git diff --cached --quiet; then
+            echo "Cursor unchanged — nothing to commit."
+          else
+            git commit -m "scrape: advance cursor after ${{ steps.plan.outputs.from }}-${{ steps.plan.outputs.to }} [skip ci]"
+            git push
+          fi
+
+      # Logs and any crash screenshots go to artifacts (not committed) for debugging.
+      - name: Upload logs & debug
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ github.run_id }}
+          path: |
+            Logs/
+            debug/
+          if-no-files-found: ignore
+          retention-days: 14
