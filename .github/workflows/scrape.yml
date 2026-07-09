@@ -108,6 +108,13 @@ jobs:
             --config ~/.config/rclone/rclone.conf 2>/dev/null || \
             echo "No existing download_status.csv on Drive yet (first run) — starting fresh."
 
+      # Fold the committed history baseline (ci/seed_status.csv) into the status
+      # master WITHOUT overwriting anything newer. Idempotent — safe every run.
+      # This is how the pre-existing local history (indices 480-1263) gets in
+      # without needing local rclone to see the runner's Drive files.
+      - name: Seed status history (merge baseline)
+        run: node ci/merge_status.js
+
       # Work out which slice of indices to do this run, from the saved cursor.
       - name: Plan this batch
         id: plan

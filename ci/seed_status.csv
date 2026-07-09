@@ -1,0 +1,782 @@
+Index,Indicator Name,CSV Status,CSV Error Reason,Pine Script Status,Source URL,Last Updated
+480,MCDX SmartMoney,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-07T20:17:12.446Z
+481,Parabolic SAR + EMA 200 + MACD Signals,OK,,OK,https://www.tradingview.com/v/eevVxLxD/,2026-07-07T20:20:33.384Z
+482,TraderLion’s Enhanced Volume,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-07T20:22:35.923Z
+483,Pullback Trading Tool ALT R1.0 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:23:22.575Z
+484,Dynamic Volume Profile,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-07T20:25:18.074Z
+485,Harmonic Pattern Detection [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T20:26:02.334Z
+486,Angle Attack Follow Line Indicator,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:27:43.034Z
+487,Trailing Stop Loss Indicator by KıvanÇ fr3762,OK,,OK,https://www.tradingview.com/v/FKSDn34J/,2026-07-07T20:29:46.416Z
+488,RSI + BB (EMA) + Dispersion (2.0),OK,,OK,https://www.tradingview.com/v/EGstJ7gS/,2026-07-07T20:31:49.673Z
+489,Fibonacci Projection with Volume & Delta Profile (Zeiierman),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T20:32:36.522Z
+490,EMA Slope + EMA Cross Strategy (by ChartArt),OK,,OK,https://www.tradingview.com/v/XLGBqrZq/,2026-07-07T20:36:38.902Z
+491,Stochastic Momentum Index _ UCSgears,OK,,OK,https://www.tradingview.com/v/xd8t6hai/,2026-07-07T20:38:44.356Z
+492,Linear Regression Channel / Curve / Slope by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:39:32.999Z
+493,CRT Indicator,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-07T20:41:34.038Z
+494,Follow Line,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:42:21.581Z
+495,Multitimeframe Fair Value Gap – FVG (Zeiierman),OK,,OK,https://www.tradingview.com/v/5jS51RsP/,2026-07-07T20:44:28.237Z
+496,Initial Balance Breakout Signals [LuxAlgo],OK,,OK,https://www.tradingview.com/v/HjvLRwvm/,2026-07-07T20:47:01.524Z
+497,Ichimoku Theories [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:47:47.471Z
+498,ICT Macros [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T20:48:34.195Z
+499,Trend Levels [ChartPrime],FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-07T20:50:55.173Z
+500,RSI Momentum Divergence Zones [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:51:42.590Z
+501,"Pivot Points CPR with M,W,D High/low",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:52:30.239Z
+502,Liquidation Reversal Signals [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:53:17.041Z
+503,TraderLion's Relative Strength Line,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:54:04.141Z
+504,STC Indicator - A Better MACD [SHK],OK,,OK,https://www.tradingview.com/v/WhRRThMI/,2026-07-07T20:57:02.160Z
+505,Open Close Cross Alerts NoRepaint Version by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T20:57:52.043Z
+506,All Candlestick Patterns Identifier,OK,,OK,https://www.tradingview.com/v/VvUqVJUX/,2026-07-07T21:00:08.239Z
+507,Open Interest Suite [Aggregated] - By Leviathan,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:00:54.505Z
+508,Volume Profile Free Pro (25 Levels Value Area VWAP) by RRB,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:03:37.631Z
+509,Trend Regularity Adaptive Moving Average [LuxAlgo],OK,,OK,https://www.tradingview.com/v/p8wGCPi6/,2026-07-07T21:07:24.412Z
+510,Adaptive Trend Flow [QuantAlgo],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-07T21:09:30.101Z
+511,Liquidity Sentiment Profile (Auto-Anchored) [LuxAlgo],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-07T21:11:37.485Z
+512,Flux Charts SFX Algo (Premium),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:12:53.460Z
+513,Optimized Trend Tracker Bands,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:14:30.664Z
+514,ICT Liquidity Sweep/Swing Fail Pattern V.1,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:16:11.119Z
+515,Vervoort Heiken-Ashi LongTerm Candlestick Oscillator [LazyBear],OK,,OK,https://www.tradingview.com/v/4zuhGaAU/,2026-07-07T21:18:17.284Z
+516,Trend Meter,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:19:03.696Z
+517,SuperTrend Oscillator [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:21:33.248Z
+518,Linear Regression ++,OK,,OK,https://www.tradingview.com/v/HaVyhZnP/,2026-07-07T21:23:40.778Z
+519,Market Cipher B  Free version with Buy and sell,OK,,OK,https://www.tradingview.com/v/KVfgBvDd/,2026-07-07T21:25:45.906Z
+520,Swing Breakout Sequence [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:26:31.227Z
+521,Protected Highs & Lows [TFO],OK,,OK,https://www.tradingview.com/v/sydB6MPd/,2026-07-07T21:28:39.587Z
+522,Market Order Bubbles - By Leviathan,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:29:29.549Z
+523,Volume Sentiment Breakout Channels [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:30:16.507Z
+524,Liquidity Voids (FVG) [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:31:06.769Z
+525,Range Average Retest Model [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:31:53.079Z
+526,Signal Forge [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:33:31.310Z
+527,Market Structure Trailing Stop [LuxAlgo],OK,,OK,https://www.tradingview.com/v/c4Z9xThG/,2026-07-07T21:36:27.642Z
+528,AI Trend Navigator [K-Neighbor],OK,,OK,https://www.tradingview.com/v/30aLnPNh/,2026-07-07T21:38:30.487Z
+529,Liquidity Sweep Filter [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:39:16.002Z
+530,SwingArm ATR Trend Indicator,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:40:04.128Z
+531,ICT Everything,OK,,OK,https://www.tradingview.com/v/T6KkMfK6/,2026-07-07T21:43:42.791Z
+532,Auto Trendline with Alert [TORYS],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:44:28.980Z
+533,Dynamic Structure Indicator,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:45:15.969Z
+534,Breaker Blocks + Order Blocks confirm [TradingFinder] BBOB Alert,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:46:53.137Z
+535,N Bar Reversal Detector [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:47:40.303Z
+536,Machine Learning: kNN-based Strategy,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:48:27.734Z
+537,UCS_Top & Bottom Candle,OK,,OK,https://www.tradingview.com/v/wkUMNJQm/,2026-07-07T21:50:34.937Z
+538,RSI Multi Length [LuxAlgo],OK,,OK,Not Available,2026-07-07T21:52:42.357Z
+539,Pure Price Action Order & Breaker Blocks [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T21:53:27.195Z
+540,[@btc_charlie] Trader XO Macro Trend Scanner,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:55:09.857Z
+541,Inverse Fisher Transform on STOCHASTIC,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-07T21:57:11.638Z
+542,Price Divergence Detector V3 revised by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:57:59.159Z
+543,Ichimoku EMA Bands,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T21:59:39.936Z
+544,Anti-Volume Stop Loss,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:00:27.601Z
+545,Multi-Layer Volume Profile [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:02:58.064Z
+546,Zigzag Trend/Divergence Detector,OK,,OK,https://www.tradingview.com/v/vnzbp63L/,2026-07-07T22:05:55.396Z
+547,Liquidity Thermal Map [BigBeluga],OK,,OK,https://www.tradingview.com/v/G30eUYdH/,2026-07-07T22:08:01.977Z
+548,Market Flow Trend Lines & Liquidity [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:08:47.105Z
+549,Auto Fib Channels by DGT,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:09:35.948Z
+550,RCI3lines,OK,,OK,https://www.tradingview.com/v/ODobP95E/,2026-07-07T22:12:41.461Z
+551,Market Cipher A free version 1.1,OK,,OK,https://www.tradingview.com/v/cAw5GEAB/,2026-07-07T22:14:48.590Z
+552,vdub_Trend_Master_v  /  v1 / v2 / v3,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:15:35.068Z
+553,Smart Fibonacci with ZigZag,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:16:21.863Z
+554,Fibonacci Time-Price Zones,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:17:59.815Z
+555,IA-SOL-Upside-Model,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:18:45.990Z
+556,Trend Range Detector (Zeiierman),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:20:27.207Z
+557,Fair Value Gap by Anche,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:21:13.793Z
+558,SWING TRADE SIGNALS,OK,,OK,https://www.tradingview.com/v/M7FfrxRY/,2026-07-07T22:23:21.331Z
+559,Technical Ratings,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:24:58.195Z
+560,WICK.ED Fractals,REJECTED,Null/empty/NaN value found in indicator columns at row 300,SKIP,,2026-07-07T22:25:44.691Z
+561,Moon Phases Strategy [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:26:37.017Z
+562,AlphaTrend Strategy,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:27:29.364Z
+563,Donchian Trend Ribbon,OK,,OK,https://www.tradingview.com/v/PxLqmP8o/,2026-07-07T22:29:36.341Z
+564,[RS]ZigZag Multiple Methods - Forecast - patterns - labels,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:30:21.754Z
+565,Stochastic Momentum Index (SMI),OK,,OK,https://www.tradingview.com/v/HLbqdCku/,2026-07-07T22:34:06.222Z
+566,Supply Demand Profiles [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:34:51.369Z
+567,Bollinger Bands Fibonacci ratios,OK,,OK,https://www.tradingview.com/v/bCy9urOG/,2026-07-07T22:36:55.776Z
+568,Vdubus Divergence Wave Pattern Generator V1,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:38:31.888Z
+569,Automatic Support & Resistance,OK,,OK,https://www.tradingview.com/v/HOx9WOnJ/,2026-07-07T22:41:32.518Z
+570,Future Trend Channel [ChartPrime],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:42:18.444Z
+571,Agressive Scalper Strategy,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:45:05.007Z
+572,Cumulative Volume Delta Divergence [TradingFinder] Periodic EMA,OK,,OK,https://www.tradingview.com/v/HvOAnchA/,2026-07-07T22:47:12.289Z
+573,RSI Entry Engine,OK,,OK,https://www.tradingview.com/v/RQ9xN1EZ/,2026-07-07T22:49:19.050Z
+574,"Stochastic + RSI, Double Strategy (by ChartArt)",REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:50:10.558Z
+575,Auto Harmonic Pattern - Extreme [Trendoscope],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:51:48.001Z
+576,Realtime Footprint,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:52:33.425Z
+577,"Trend Lines for RSI, CCI, Momentum, OBV",OK,,OK,https://www.tradingview.com/v/TDat20sO/,2026-07-07T22:54:39.972Z
+578,Isolated Peak and Bottom (Tuncer ŞENGÖZ)  by KıvanÇ fr3762,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:55:24.846Z
+579,Targets For Many Indicators [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:56:10.792Z
+580,Indicators: Better Volume Indicator & InstrumentVolume,OK,,OK,https://www.tradingview.com/v/LfVJhuir/,2026-07-07T22:58:17.744Z
+581,AG FX - Watermark,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T22:59:03.178Z
+582,Trend Lines [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T22:59:50.632Z
+583,Support & Resistance Pro Toolkit [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T23:00:38.893Z
+584,Comprehensive Trading Toolkit [BigBeluga],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-07T23:02:51.245Z
+585,Optimized Trend Tracker STRATEGY & SCREENER,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:03:45.734Z
+586,"STD-Filtered, N-Pole Gaussian Filter [Loxx]",OK,,OK,https://www.tradingview.com/v/i4xZNAoy/,2026-07-07T23:07:52.550Z
+587,SSL HYBRID Advanced,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:08:39.843Z
+588,Moving Average ADX,OK,,OK,https://www.tradingview.com/v/owwws7dM/,2026-07-07T23:10:50.836Z
+589,Hull Butterfly Oscillator [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:11:35.358Z
+590,MA Strategy Emperor insiliconot,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:12:21.278Z
+591,Orderblock Footprints [AlgoAlpha],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T23:13:08.045Z
+592,Bollinger Bands Stochastic RSI Extreme Signal,OK,,OK,https://www.tradingview.com/v/KGYEY6k6/,2026-07-07T23:15:12.340Z
+593,FX4Model° [fx4_living x toodegrees],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T23:15:57.047Z
+594,Kalman Trend Levels [BigBeluga],OK,,OK,https://www.tradingview.com/v/DZo2pzhg/,2026-07-07T23:17:59.934Z
+595,Average Sentiment Oscillator,OK,,OK,https://www.tradingview.com/v/hz1PKu3G/,2026-07-07T23:20:02.853Z
+596,Ichimoku Oscillator,OK,,OK,https://www.tradingview.com/v/ypZ7TSjN/,2026-07-07T23:22:05.744Z
+597,ICT Killzones [28Trades],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:22:51.284Z
+598,AK  TREND ID v1.00,OK,,OK,https://www.tradingview.com/v/E9LpD2M9/,2026-07-07T23:24:55.788Z
+599,Machine Learning Moving Average [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:25:40.213Z
+600,_CM_High_Low_Open_Close_Weekly-Intraday,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:26:26.124Z
+601,Institutional OrderBlock Pressure,OK,,OK,https://www.tradingview.com/v/LL7EEuVI/,2026-07-07T23:30:01.649Z
+602,Directional Movement Index + ADX & Keylevel Support,OK,,OK,https://www.tradingview.com/v/38loM0lA/,2026-07-07T23:32:04.833Z
+603,TTM Squeeze Pro,OK,,OK,https://www.tradingview.com/v/0drMdHsO/,2026-07-07T23:34:06.579Z
+604,RSI Based Automatic Supply and Demand,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:34:51.358Z
+605,Volumatic Support/Resistance Levels [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:36:27.131Z
+606,ICT Anchored Market Structures with Validation [LuxAlgo],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-07T23:38:30.219Z
+607,Consolidation Range with Signals (Zeiierman),OK,,OK,https://www.tradingview.com/v/CrFfQD8L/,2026-07-07T23:40:35.212Z
+608,%R Trend Exhaustion [upslidedown],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:41:20.507Z
+609,MACD ReLoaded,OK,,OK,https://www.tradingview.com/v/PhtqdGBM/,2026-07-07T23:45:04.992Z
+610,Machine Learning & Optimization Moving Average (Expo),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-07T23:45:56.528Z
+611,UCS_Murrey's Math Oscillator_V2,OK,,OK,https://www.tradingview.com/v/VQPnbiQd/,2026-07-07T23:50:11.644Z
+612,EMA Ribbon [Krypt],OK,,OK,https://www.tradingview.com/v/T0Pdlvtu/,2026-07-07T23:52:28.758Z
+613,Periodic Linear Regressions [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 172,SKIP,,2026-07-07T23:53:18.716Z
+614,Multiple Indicators Screener,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T23:54:09.660Z
+615,Next Candle Predictor,OK,,OK,https://www.tradingview.com/v/V8X0KT7b/,2026-07-07T23:56:27.076Z
+616,Higher Time Frame Support/Resistance [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-07T23:57:16.009Z
+617,DeltaFlow Volume Profile [BigBeluga],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-07T23:59:36.952Z
+618,Open Liquidity Heatmap [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:00:27.584Z
+619,MOST + Moving Average Screener,OK,,OK,https://www.tradingview.com/v/w5W8qi8k/,2026-07-08T00:02:40.490Z
+620,Fair Value Gaps (Volumetric) | Flux Charts,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:03:29.431Z
+621,CCI Stochastic and a quick lesson on Scalping & Trading Systems,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:04:20.206Z
+622,Inverse Fisher Transform on RSI,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T00:07:27.224Z
+623,HyperTrend [LuxAlgo],OK,,OK,https://www.tradingview.com/v/Bcufg8oX/,2026-07-08T00:09:38.640Z
+624,Auto Fib Speed Resistance Fans by DGT,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:10:28.676Z
+625,Squeeze Momentum Indicator [LazyBear] Version2 by KıvanÇ fr3762,OK,,OK,https://www.tradingview.com/v/NVzKGYFJ/,2026-07-08T00:12:42.298Z
+626,Session Streaks [LuxAlgo],OK,,OK,https://www.tradingview.com/v/qJ7Gcudl/,2026-07-08T00:14:56.296Z
+627,Swing Data - ADR% / RVol / PVol / Float % / Avg $ Vol,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:15:45.512Z
+628,Volume Flow v3,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:16:36.370Z
+629,20 years old Turtles strategy still work!!,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:17:33.725Z
+630,Candle Range Theory | Flux Charts,OK,,OK,https://www.tradingview.com/v/d1sWQSxX/,2026-07-08T00:19:44.672Z
+631,MACD DEMA,OK,,OK,https://www.tradingview.com/v/NL1z2SYw/,2026-07-08T00:21:56.556Z
+632,Targets For Overlay Indicators [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:22:45.540Z
+633,Weis Wave Volume,OK,,OK,https://www.tradingview.com/v/QrCFs0K2/,2026-07-08T00:25:03.263Z
+634,Orderblocks (Nephew_Sam_),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:25:53.968Z
+635,Godmode 4.0.2 [Supply/Demand],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:26:43.501Z
+636,RSI Strategy,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:27:39.846Z
+637,Accurate Swing Trading System,OK,,OK,https://www.tradingview.com/v/vkAechsb/,2026-07-08T00:29:51.627Z
+638,Breakout Targets [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:30:40.174Z
+639,CVD - Cumulative Volume Delta Candles,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:31:30.820Z
+640,Super Scalper - 5 Min 15 Min,OK,,OK,https://www.tradingview.com/v/4ORGCiTh/,2026-07-08T00:34:39.153Z
+641,Trade & Risk Management Tool (Expo),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:35:28.080Z
+642,MTF Break of Structure(BOS) & Market Structure Shift(MSS),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:36:18.611Z
+643,TKP T3 Trend With Psar Barcolor,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:37:07.851Z
+644,ICT Algorithmic Macro Tracker° (Open-Source) by toodegrees,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:37:57.732Z
+645,Candlestick Structure [LuxAlgo],OK,,OK,https://www.tradingview.com/v/xkLUzGBp/,2026-07-08T00:41:07.971Z
+646,Previous Day High and Low + Separators Daily/Weekly,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:42:52.074Z
+647,Liquidations Zones [ChartPrime],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:45:25.123Z
+648,High Volume Points [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:46:14.489Z
+649,Smart Money Concepts (Advanced),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:48:00.564Z
+650,Dynamic Linear Regression Channels,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:50:25.574Z
+651,Binary Option Arrows (example) [TheMightyChicken],OK,,OK,https://www.tradingview.com/v/ioSbnNIX/,2026-07-08T00:52:38.061Z
+652,Parabolic RSI [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:53:28.244Z
+653,Big Snapper Alerts R2.0 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:54:19.050Z
+654,One Shot One Kill ICT [TradingFinder] Liquidity MMXM + CISD OTE,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:55:08.918Z
+655,Trading Sessions - Sonarlab,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T00:55:59.363Z
+656,Backtest Adapter,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:56:52.723Z
+657,Inverse Fisher Transform COMBO STO+RSI+CCIv2  by KIVANÇ fr3762,FAIL,Download failed: No results for Inverse Fisher Transform COMBO STO+RSI+CCIv2  by KIVANÇ fr3762,SKIP,,2026-07-08T00:58:24.983Z
+658,Liquidity Location Detector [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T00:59:16.327Z
+659,Super Guppy R1.0 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:01:04.947Z
+660,VWAP Stdev Bands v2 Mod UPDATE,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:03:51.825Z
+661,Waddah Attar Explosion V2 [SHK],OK,,OK,https://www.tradingview.com/v/d9IjcYyS/,2026-07-08T01:08:21.376Z
+662,"Bollinger + RSI, Double Strategy (by ChartArt)",OK,,OK,https://www.tradingview.com/v/zopumZ8a/,2026-07-08T01:13:50.483Z
+663,MOST on RSI,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:14:45.963Z
+664,Range Breakout [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 13,SKIP,,2026-07-08T01:15:42.727Z
+665,Quarterly Cycles [Daye's Theory],FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T01:18:24.671Z
+666,MACD Support and Resistance [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:19:23.177Z
+667,WaveTrend Oscillator + Divergence  + Direction Detection +Alerts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:21:29.007Z
+668,Supply and Demand Anchored [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:22:28.282Z
+669,Order Blocks W/ Realtime Fibs [QuantVue],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:23:23.101Z
+670,Supertrend - Ladder ATR,OK,,OK,https://www.tradingview.com/v/8EZaD3CW/,2026-07-08T01:25:42.610Z
+671,AI-EngulfingCandle,OK,,OK,https://www.tradingview.com/v/58m8mjwG/,2026-07-08T01:28:00.761Z
+672,Channels With Patterns [ChartPrime],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:30:56.289Z
+673,Ehlers MESA Adaptive Moving Average [LazyBear],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:31:53.329Z
+674,Daily Close Comparison Strategy (by ChartArt via sirolf2009),OK,,OK,https://www.tradingview.com/v/XK8XbDhT/,2026-07-08T01:35:03.806Z
+675,LOWESS (Locally Weighted Scatterplot Smoothing) [ChartPrime],OK,,OK,https://www.tradingview.com/v/hyeoDyZn/,2026-07-08T01:37:26.341Z
+676,SMT Divergence [TFO],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:38:12.744Z
+677,Pivot Trendlines with Breaks [HG],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:40:41.938Z
+678,"Logistic RSI, STOCH, ROC, AO, ... by DGT",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:41:33.195Z
+679,Screener - Mean Reversion Channel,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:42:20.689Z
+680,Swift Algo X,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:43:37.761Z
+681,Gaps + Imbalances + Wicks (MTF) - By Leviathan,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:45:20.512Z
+682,Multpile strategies [LUPOWN],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:47:02.855Z
+683,Absorption Bubbles,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:47:50.145Z
+684,Auto Fibonacci Retracement Levels MTF,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:50:26.876Z
+685,1-2-3 Pattern (Expo),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:51:15.914Z
+686,NR4 & NR7 with Breakouts [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T01:53:36.137Z
+687,Open Interest Stochastic Money Flow Index,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:56:10.633Z
+688,CD_Average Daily Range Zones- highs and lows of the day,OK,,OK,https://www.tradingview.com/v/eHhGyI6R/,2026-07-08T01:58:52.864Z
+689,Custom Indicator Clearly Shows If Bulls or Bears are in Control!,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T01:59:41.113Z
+690,UT Bot + LinReg Candles (Dual Sensitivity),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:00:28.203Z
+691,Market Structures + ZigZag [TradingFinder] CHoCH/BOS - MSS/MSB,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:01:16.534Z
+692,Order Blocks Finder [TradingFinder] Major OB | Supply and Demand,OK,,OK,https://www.tradingview.com/v/MRx6ze6n/,2026-07-08T02:03:22.427Z
+693,Multi Time Frame Candles with Volume Info / 3D,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:04:08.481Z
+694,Indicator: Zero Lag EMA & a simple trading strategy,OK,,OK,https://www.tradingview.com/v/LTqZz3l9/,2026-07-08T02:06:14.342Z
+695,Fair Value Gap Absorption Indicator [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:07:00.607Z
+696,CRT | Turtle Soup (ICT),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:08:40.813Z
+697,Sessions & ICT Killzones (0xCryptoVince),FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T02:11:07.394Z
+698,DTC - 1.3.6 DTC Trading Club,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:12:23.676Z
+699,FIG - Volume Spread analysis,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:13:10.240Z
+700,Indicator: Elder Impulse System,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:13:57.724Z
+701,ICT Seek & Destroy Profile [TFO],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:16:13.285Z
+702,Trailing % Stop,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:17:00.714Z
+703,Normalized Quantitative Qualitative Estimation nQQE,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:17:48.799Z
+704,Buying Selling Volume,OK,,OK,https://www.tradingview.com/v/f32HlgbI/,2026-07-08T02:19:54.183Z
+705,Dynamic Supply and Demand Zones [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 102,SKIP,,2026-07-08T02:20:41.978Z
+706,RedK Trader Pressure Index (TPX v1.0),FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T02:23:11.857Z
+707,DARVAS BOX by KIVANÇ fr3762,OK,,OK,https://www.tradingview.com/v/cRqNbBLU/,2026-07-08T02:25:17.400Z
+708,RSI Divergence [TORYS],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:26:51.575Z
+709,Mix1 : Ema Cross + Trend Channel [Gu5],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:27:38.361Z
+710,Intraday Volume Swings,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:30:11.175Z
+711,Twin Range Filter Visualized,OK,,OK,https://www.tradingview.com/v/bCCLOhFE/,2026-07-08T02:34:01.427Z
+712,EMA & MA Crossover,OK,,OK,https://www.tradingview.com/v/EI1DSffI/,2026-07-08T02:36:05.266Z
+713,Supertrend Channels [LuxAlgo],OK,,OK,https://www.tradingview.com/v/ECSfVssE/,2026-07-08T02:38:09.432Z
+714,Range Filter [DW],OK,,OK,https://www.tradingview.com/v/lut7sBgG/,2026-07-08T02:40:15.097Z
+715,Ichimoku Kinkō hyō 目均衡表,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:41:06.144Z
+716,Institutional FVG & Liquidity Range Candle (Expo),FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T02:43:09.121Z
+717,The Next Pivot [Kioseff Trading],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:43:55.619Z
+718,Auto TrendLines [TradingFinder] Support Resistance Signal Alerts,OK,,OK,https://www.tradingview.com/v/hZyLPfdY/,2026-07-08T02:46:02.237Z
+719,Cumulative Volume Delta Strategy | Flux Charts,OK,,OK,https://www.tradingview.com/v/95Wwe7ry/,2026-07-08T02:48:11.220Z
+720,Premier RSI Oscillator [LazyBear],OK,,OK,https://www.tradingview.com/v/nExsfauf/,2026-07-08T02:50:19.049Z
+721,Trend Impulse Channels (Zeiierman),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:51:06.927Z
+722,Volume spread for VSA,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T02:53:08.408Z
+723,CM_OldSchool_Projected_high_Low,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:53:55.802Z
+724,Auto Fibonacci Retracement - Real-Time (Expo),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:54:42.891Z
+725,Tops/Bottoms,FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T02:57:16.183Z
+726,Breakout and Retest Signals [AlgoAlpha],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T02:58:03.584Z
+727,ATR Bands,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T02:58:49.556Z
+728,Support Resistance Classification (VR) [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:00:25.862Z
+729,Supertrend MTF Heikin Ashi,FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T03:02:51.644Z
+730,Stop loss and Take Profit in $$ example,FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T03:05:15.453Z
+731,SMC Indicator With Webhook,REJECTED,Null/empty/NaN value found in indicator columns at row 300,SKIP,,2026-07-08T03:06:02.581Z
+732,10x Bull Vs. Bear VP Intraday Sessions [Kioseff Trading],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:06:49.274Z
+733,Open Close Cross Strategy NoRepaint Version by JustUncleL,OK,,OK,https://www.tradingview.com/v/9wda3yUw/,2026-07-08T03:09:02.852Z
+734,UT Bot Strategy with Backtesting Range [QuantNomad],OK,,OK,https://www.tradingview.com/v/RHagaXIp/,2026-07-08T03:11:19.313Z
+735,VWAP Periodic Close [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:12:05.057Z
+736,ICT Killzones [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:12:51.227Z
+737,Renko+Moving Average+RMI Alert R3 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:13:40.582Z
+738,ATR% multiple from 50-MA,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:14:27.604Z
+739,OutperformX VCPSwing,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:15:16.056Z
+740,R:R Trading System Framework,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:16:04.558Z
+741,Swing Failure Signals [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:16:52.624Z
+742,Volumatic Fair Value Gaps [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:17:41.251Z
+743,Price & Volume Profile (Expo),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:19:21.825Z
+744,Strong Demands & Supplies + Liquidity | Zonas de Compra e Venda,OK,,OK,https://www.tradingview.com/v/LyQgObAq/,2026-07-08T03:21:28.189Z
+745,RedK Volume-Accelerated Directional Energy Ratio (RedK VADER),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:22:14.846Z
+746,ICT Implied Fair Value Gap (IFVG) [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:23:02.166Z
+747,Parallel Pivot Lines [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:23:49.119Z
+748,Turtle Soup ICT Strategy [TradingFinder] FVG + CHoCH/CSD,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:24:36.939Z
+749,Smart Money Range [ChartPrime],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:25:24.925Z
+750,Chandelier Stop,OK,,OK,https://www.tradingview.com/v/mjBdRGXe/,2026-07-08T03:28:22.167Z
+751,Fibonacci levels MTF,REJECTED,Null/empty/NaN value found in indicator columns at row 10,SKIP,,2026-07-08T03:29:11.850Z
+752,Master Pattern [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:30:01.214Z
+753,Liquidity Pools Pro [WillyAlgoTrader],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:30:48.319Z
+754,HTF Reversal Divergences [LuxAlgo],OK,,OK,https://www.tradingview.com/v/ZF0M3jqb/,2026-07-08T03:32:55.221Z
+755,ABC on Recursive Zigzag [Trendoscope],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:33:41.735Z
+756,RSI Tops and Bottoms,OK,,OK,https://www.tradingview.com/v/H61RQGdR/,2026-07-08T03:36:39.089Z
+757,Key Levels Suite - By Leviathan,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:37:25.047Z
+758,Extreme Trend Reversal Points [HeWhoMustNotBeNamed],OK,,OK,https://www.tradingview.com/v/eBB5mW6b/,2026-07-08T03:39:32.622Z
+759,CM_Modified_Heikin-Ashi_TrendBars,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:40:17.983Z
+760,Previous Day Week Highs & Lows,OK,,OK,https://www.tradingview.com/v/Lw708Lif/,2026-07-08T03:44:08.657Z
+761,LongBuyLongSellIndicator,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:45:24.197Z
+762,GMMA,OK,,OK,https://www.tradingview.com/v/bIEW7Sm9/,2026-07-08T03:47:32.254Z
+763,Breakout Pattern Setup [WillyAlgoTrader],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:49:09.671Z
+764,True Breakout Pattern [TradingFinder] Breakout Signal Indicator,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:49:58.457Z
+765,Strat Assistant,FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T03:52:43.983Z
+766,Luxy BIG beautiful Dynamic ORB,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T03:54:22.865Z
+767,Inverse Fisher Transform on CCI Version 2,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T03:56:27.695Z
+768,Liquidity Trendline With Signals [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T03:57:16.014Z
+769,Inducement / Stop Hunt [TFO],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T03:59:30.368Z
+770,ICT Sessions [Killzones],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:00:18.690Z
+771,Super Smoothed MACD for CRYPTO by KIVANÇ fr3762,OK,,OK,https://www.tradingview.com/v/SlCjQY3v/,2026-07-08T04:03:22.529Z
+772,ATR+ (Stop Loss Indicator),FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T04:05:52.528Z
+773,Divergence Screener [Trendoscope®],OK,,OK,https://www.tradingview.com/v/zewvHAvQ/,2026-07-08T04:08:52.407Z
+774,Volume Supply and Demand Zones,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T04:11:50.838Z
+775,Triangular Momentum Oscillator & Real Time Divergences [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:12:38.476Z
+776,Market Structure (Intrabar) [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:14:16.147Z
+777,Forecast Oscillator,OK,,OK,Not Available,2026-07-08T04:15:49.691Z
+778,Premium & Discount Delta Volume [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:16:35.936Z
+779,Price Action Toolkit | Flux Charts,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:17:52.823Z
+780,Grid Bot Simulator,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:18:38.906Z
+781,Matrix Series,OK,,OK,https://www.tradingview.com/v/2X2cVLhb/,2026-07-08T04:20:54.181Z
+782,KDJ Indicator - @iamaltcoin,OK,,OK,https://www.tradingview.com/v/h51ZIRlX/,2026-07-08T04:24:44.206Z
+783,Extrapolated Pivot Connector - Lets Make Support And Resistances,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:25:31.795Z
+784,CM_Stochastic Highlight Bars,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:26:20.119Z
+785,CCT Bollinger Band Oscillator,OK,,OK,https://www.tradingview.com/v/iA4XGCJW/,2026-07-08T04:28:30.721Z
+786,VOLUME WEIGHTED MACD V2 VWMACDV2 BY KIVANÇ fr3762,OK,,OK,https://www.tradingview.com/v/wVe6AfGA/,2026-07-08T04:31:30.727Z
+787,Smart Orderblocks / Supply and Demand (@JP7FX),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:32:16.864Z
+788,Order Block Finder,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:33:59.529Z
+789,[STRATEGY][RS]ZigZag PA Strategy V4.1,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:34:50.697Z
+790,Volume Profile Bar-Magnified Order Blocks [MyTradingCoder],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:35:36.879Z
+791,Momentum Acceleration by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:37:12.996Z
+792,Heiken Ashi Candles,OK,,OK,https://www.tradingview.com/v/mdWsHY8m/,2026-07-08T04:39:18.525Z
+793,Ribbon for Scalping 5 to 15 min timeframes,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T04:41:27.225Z
+794,VWAP Volume Profile [BigBeluga],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T04:43:31.903Z
+795,VWAP MTF (Multi Timeframe),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:44:17.525Z
+796,MACD & RSI Overlay (Expo),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:45:53.188Z
+797,CM_Pivot Points_Custom,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:46:39.213Z
+798,Range Sentiment Profile [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:48:15.317Z
+799,Previous Highs & Lows [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:49:00.787Z
+800,Delta Volume Candles [LucF],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:49:47.226Z
+801,ICT Auto-Validated SMC,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:50:32.784Z
+802,Clusters Volume Profile [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:51:18.407Z
+803,Smart Money Volume Index [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:52:04.533Z
+804,Volume Footprint [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:53:39.958Z
+805,Poor man's volume clusters,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:54:26.290Z
+806,Liquidity Levels [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:55:11.735Z
+807,Machine Learning: Logistic Regression,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:55:58.329Z
+808,Stochastic Divergence,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:56:44.902Z
+809,Volume Profile Plus,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T04:58:19.567Z
+810,Asian Range by Nico948,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:59:04.864Z
+811,Delta Zones Buy/Sell Pressure,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T04:59:50.577Z
+812,Wolfe Scanner (Multi - zigzag) [HeWhoMustNotBeNamed],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T05:00:36.145Z
+813,Market Structure (Breakers) [LuxAlgo],OK,,OK,https://www.tradingview.com/v/cONRD5q4/,2026-07-08T05:02:40.130Z
+814,Backtesting & Trading Engine [PineCoders],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T05:03:26.905Z
+815,VWAP/MVWAP/EMA CROSSOVER,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T05:04:12.735Z
+816,Engulfing Candle Indicator,OK,,OK,https://www.tradingview.com/v/YrudGA12/,2026-07-08T05:07:29.263Z
+817,Anchored Volume Profile by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 10,SKIP,,2026-07-08T05:08:16.025Z
+818,Three Drive Pattern Detector [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T05:09:03.511Z
+819,Volume Analysis - Heatmap and Volume Profile,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T05:09:51.768Z
+820,Vix FIX / StochRSI Strategy,OK,,OK,https://www.tradingview.com/v/TDxSLJRA/,2026-07-08T05:12:48.658Z
+823,Code for All 4 Forex Sessions W/ Background Highlight!!!,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T09:18:22.983Z
+824,Demand & Supply Zones [eyes20xx],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T09:19:16.918Z
+825,Waindrops [Makit0],OK,,OK,https://www.tradingview.com/v/dJr8hv4v/,2026-07-08T09:21:31.821Z
+826,Swing High/Low (ZigZag) [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T09:22:24.588Z
+827,Machine Learning Supertrend [Aslan],OK,,OK,https://www.tradingview.com/v/9SgtsBck/,2026-07-08T09:25:45.858Z
+828,Fair value bands / Flowly Indicators,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T09:27:40.064Z
+829,Retest Support Resistance Signals [ChartPrime],OK,,OK,https://www.tradingview.com/v/E4joH77u/,2026-07-08T09:29:56.233Z
+830,ATR Trailing Stoploss,OK,,OK,https://www.tradingview.com/v/sLXhpDO8/,2026-07-08T09:32:11.633Z
+831,Market Trend Levels Detector [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T09:33:02.665Z
+832,ICT HTF Candles [Source Code] (fadi),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T12:48:25.598Z
+833,SMC Order Block [Truth Indie],REJECTED,Null/empty/NaN value found in indicator columns at row 71,SKIP,,2026-07-08T12:50:13.455Z
+841,"Smart Trader, Episode 03, by Ata Sabanci, Candles and Tradelines",REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:03:56.644Z
+834,Candlesticks Patterns Identified,OK,,OK,https://www.tradingview.com/v/BK4lEoKq/,2026-07-08T12:53:13.946Z
+835,PRO Scalper,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T12:54:30.886Z
+836,Trend Following Moving Averages,OK,,OK,https://www.tradingview.com/v/9UiewdMD/,2026-07-08T12:57:25.969Z
+837,Change in State of Delivery (CISD) [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T12:58:22.471Z
+838,BITCOIN KILL ZONES v2,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:00:52.668Z
+839,Volume Divergence by MM,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:02:06.378Z
+840,ICHIMOKU Kinko Hyo by KIVANC fr3762,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:03:04.530Z
+842,[imba]lance algo,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:04:51.405Z
+843,Inverse FVG with Rejections [TFO],OK,,OK,https://www.tradingview.com/v/arQP5Q2f/,2026-07-08T13:07:02.429Z
+844,Market Structure Trend Targets [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 6,SKIP,,2026-07-08T13:07:49.181Z
+845,"Intraday TS ,BB + Buy/Sell +Squeeze Mom.+ adx-dmi",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:08:37.352Z
+846,Entry points,OK,,OK,https://www.tradingview.com/v/8jUa1ag1/,2026-07-08T13:10:50.181Z
+847,Multi Timeframe Support and Resistance [ABA Invest],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:11:37.338Z
+848,Machine Learning Price Target Prediction Signals [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:12:30.824Z
+849,Moving Averages as Support Resistance MTF,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:13:21.833Z
+850,Higher Timeframe High & Low [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 8,SKIP,,2026-07-08T13:14:18.345Z
+851,ICT Venom Trading Model [TradingFinder] SMC NY Session 2025Setup,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:15:15.282Z
+853,Bull Bear Power Trend,OK,,OK,https://www.tradingview.com/v/wjlDy5tV/,2026-07-08T11:14:59.692Z
+854,Lorentzian Classification Strategy,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T11:15:57.245Z
+855,"이동평균선7개(SMA,EMA,SMMA) + 볼린저밴드 + 일목균형표 Multi-MA & BB & Ichimoku",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T11:16:51.195Z
+856,Machine Learning: Gaussian Process Regression [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T11:17:48.415Z
+857,Pivot Points High Low (HH/HL/LH/LL) [Anan],REJECTED,Null/empty/NaN value found in OHLCV columns at row 2,SKIP,,2026-07-08T11:19:43.272Z
+858,MACD Divergences by @DaviddTech,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T11:20:37.182Z
+859,ADR% - Average Daily Range % by MikeC (AKA TheScrutiniser),OK,,OK,https://www.tradingview.com/v/6KVjtmOY/,2026-07-08T11:22:57.361Z
+860,Risk Management Tool [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T11:23:59.269Z
+861,Price Action Trading System v0.3 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T11:25:11.654Z
+862,Session TPO Market Profile,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T11:26:17.926Z
+863,MOST STRATEGY,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:25:17.543Z
+864,The Ultimate Buy and Sell Indicator,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:26:08.671Z
+865,Pivot Point SuperTrend [Backtest],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:27:06.117Z
+866,Xtreme Trend,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:28:11.577Z
+867,Double MACD Buy and Sell,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:30:21.930Z
+868,TDMacd,OK,,OK,https://www.tradingview.com/v/oJYIelLW/,2026-07-08T13:35:29.785Z
+869,Momentum Ghost Machine [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:36:38.677Z
+870,Zero Lag MACD Enhanced - Version 1.2,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:39:45.917Z
+871,CDC Action Zone V.2,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:43:15.852Z
+872,Pekipek's PPO Divergence BETA,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:44:16.586Z
+873,RedK EVEREX - Effort Versus Results Explorer,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:45:15.262Z
+874,Orderblocks (Nephew_Sam_) - Open source,REJECTED,Null/empty/NaN value found in indicator columns at row 301,SKIP,,2026-07-08T13:46:13.301Z
+875,Demo - Demand Supply Zone Indicator,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:47:13.002Z
+876,Swing Anchored Vwap [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:48:11.389Z
+877,Zone Shift [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 11,SKIP,,2026-07-08T13:49:11.224Z
+878,Pivot High/Low Analysis & Forecast [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:50:13.531Z
+879,Ehlers Stochastic CG Oscillator [LazyBear],OK,,OK,https://www.tradingview.com/v/aX0yTFaA/,2026-07-08T13:54:25.814Z
+880,Liquidity Pools (Nephew_Sam_),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:55:38.455Z
+881,HTF Liquidity Levels,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T13:56:43.082Z
+882,Position Size Calculator,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T13:58:58.493Z
+883,Super trend V,OK,,OK,https://www.tradingview.com/v/hUbFSPLh/,2026-07-08T14:01:34.651Z
+884,Range Analysis - By Leviathan,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:02:34.836Z
+885,Bjorgum AutoTrail,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:04:46.687Z
+886,Fair Value Gaps by DGT,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:06:08.591Z
+887,BEST Trend Direction Helper (Strategy Edition),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:07:30.338Z
+888,Stop Hunt (Nephew_Sam_),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:08:42.860Z
+889,Order Flow Footprint Real-time,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:11:56.967Z
+890,Realtime 5D Profile [LucF],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:14:07.169Z
+891,Relative Strength of a stock,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:16:33.468Z
+892,"Bull Market Support Band (20w SMA, 21w EMA)",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:17:42.330Z
+893,Strength of Divergence Across Multiple Indicators,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:18:49.789Z
+894,Liquidity Spectrum Visualizer [BigBeluga],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T14:22:11.023Z
+895,Easy Entry/Exit Trend Colors (With Alerts),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:23:29.150Z
+896,Adaptive MACD [LuxAlgo],OK,,OK,https://www.tradingview.com/v/kBHEpriQ/,2026-07-08T14:26:04.582Z
+897,Horns Pattern Identifier [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:27:11.595Z
+898,Elliot Wave - Impulse,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:31:09.770Z
+899,CRT overlay 2,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:32:15.018Z
+900,Volume HeatMap Divergence [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:33:22.855Z
+901,TDI - Traders Dynamic Index + RSI Divergences + Buy/Sell Signals,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:35:58.132Z
+902,CDC ActionZone V3 2020,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:38:18.888Z
+903,Order Blocks,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:40:30.879Z
+904,Moving Average Shaded Fill Area Crossover EMA Color - Editable,OK,,OK,https://www.tradingview.com/v/ZYoEWSqZ/,2026-07-08T14:44:36.937Z
+905,Volume Profile Auto [line],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T14:45:42.281Z
+906,[blackcat] L3 Banker Fund Flow Trend Oscillator,OK,,OK,https://www.tradingview.com/v/791WkWcm/,2026-07-08T14:48:06.303Z
+907,How To Set Backtest Date Range,OK,,OK,https://www.tradingview.com/v/62hUcP6O/,2026-07-08T14:50:35.827Z
+908,Bollinger Bands Breakout Oscillator [LuxAlgo],OK,,OK,https://www.tradingview.com/v/YaniRMVC/,2026-07-08T14:53:57.890Z
+909,CPR with Pivot Levels - CPR by KGS,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:55:06.200Z
+910,Pro Scalper AI [BullByte],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:56:12.112Z
+911,Traders Dynamic Index Indicator Alert v0.1 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T14:57:12.280Z
+912,ADX Di+ Di- [Gu5],REJECTED,Null/empty/NaN value found in OHLCV columns at row 2,SKIP,,2026-07-08T14:58:20.638Z
+913,ZLSMA - Zero Lag LSMA,OK,,OK,https://www.tradingview.com/v/3LGnSrQN/,2026-07-08T15:00:58.009Z
+914,Next Pivot Projection [Trendoscope],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T15:03:14.578Z
+915,Standardized MACD Heikin-Ashi Transformed,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T15:04:26.164Z
+916,AI SuperTrend x Pivot Percentile - Strategy [PresentTrading],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T15:05:36.222Z
+917,Pullback Candles (Candlestick Analysis) Guaranteed Winners!!!!,OK,,OK,https://www.tradingview.com/v/qb0OGnPK/,2026-07-08T15:09:24.388Z
+918,Reversal,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T15:10:45.858Z
+919,Hammers & Stars Strategy,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T15:11:46.570Z
+920,"MACD-X, More Than MACD by DGT",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T15:12:50.695Z
+921,Madrid MA Ribbon Bar v2,OK,,OK,https://www.tradingview.com/v/n4rW85zV/,2026-07-08T15:15:40.589Z
+922,Delta Ladder [Kioseff Trading],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T15:16:48.196Z
+923,Best Support And Resistance Indicator V1 [ForexBee],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T15:17:58.259Z
+924,VWAP + Fibo Dev Extensions Strategy,OK,,OK,https://www.tradingview.com/v/EaBACrDi/,2026-07-08T15:20:23.000Z
+925,Bitcoin Logarithmic Growth Curves,OK,,OK,https://www.tradingview.com/v/d0JTc61s/,2026-07-08T15:22:38.378Z
+926,QQE Cross Indicator Alert v2.0 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 301,SKIP,,2026-07-08T15:23:43.618Z
+927,Price and Volume Breakout Buy Strategy [TradeDots],OK,,OK,https://www.tradingview.com/v/jc2hs2qK/,2026-07-08T15:30:08.379Z
+928,CBC Flip,FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T16:21:57.200Z
+930,Adaptive Support and Resistance Zones [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T17:46:49.659Z
+929,"Full CRYPTO pack macd, rsi, obv, ema strategy",OK,,OK,https://www.tradingview.com/v/DbRYTl6G/,2026-07-08T16:25:16.435Z
+931,Saty Pivot Ribbon,OK,,OK,https://www.tradingview.com/v/I4VXGe18/,2026-07-08T17:49:11.645Z
+932,Balanced Price Range (BPR),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T17:50:13.852Z
+933,EQH/EQL Liquidity Zones [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T17:51:12.875Z
+934,Breakout Boxes [ChartPrime],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T17:52:11.682Z
+935,Internal Candle Strength [LuxAlgo],OK,,OK,https://www.tradingview.com/v/4WIILHOS/,2026-07-08T17:55:39.492Z
+936,"Indicators: Traders Dynamic Index, HLCTrends and Trix Ribbon",OK,,OK,https://www.tradingview.com/v/sQKGbRRi/,2026-07-08T17:58:08.040Z
+937,Multiple divergences NON-REPAINT by PeterO,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:00:23.153Z
+938,Rolling VWAP,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:01:22.951Z
+939,"Code Plots - High, Low, Open, Close—Daily, Weekly, & Monthly!!!",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:02:26.179Z
+940,Footprint IQ Pro [TradingIQ],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:04:52.488Z
+941,Fractal Model [Pro+] (TTrades),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:06:16.447Z
+942,Triangular Hull Moving Average + Volatility [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:07:04.364Z
+943,Liquidation Levels [LuxAlgo],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T18:08:48.812Z
+944,Realtime Volume Bars w Market Buy/Sell/Neutral split & Mkt Delta,OK,,OK,https://www.tradingview.com/v/vUjWu5E7/,2026-07-08T18:10:56.354Z
+945,Breakaway Fair Value Gaps [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:11:38.844Z
+946,ICT Unicorn | Flux Charts,OK,,OK,https://www.tradingview.com/v/GUCWo6S9/,2026-07-08T18:13:37.200Z
+947,Two-Pole Oscillator [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:14:19.568Z
+948,FX Sniper: T3-CCI Copy Strategy,OK,,OK,https://www.tradingview.com/v/iQL7ZPAf/,2026-07-08T18:16:17.947Z
+949,ADX by cobra,OK,,OK,https://www.tradingview.com/v/i2IYS9TW/,2026-07-08T18:18:16.159Z
+950,Indicator: HawkEye Volume Indicator,OK,,OK,https://www.tradingview.com/v/gci6llVF/,2026-07-08T18:20:11.870Z
+951,Mirage Liquidity Sweep Pro [WillyAlgoTrader],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:20:55.023Z
+952,Triple MA Forecast,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:21:39.048Z
+953,Moving Average Converging [LuxAlgo],OK,,OK,https://www.tradingview.com/v/srkcHQMv/,2026-07-08T18:24:02.301Z
+954,QQE MOD + SSL Hybrid + Waddah Attar Explosion,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:25:17.963Z
+955,[BullTrading] 1 minute Easy Scalping Sys v3.0,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:26:13.464Z
+956,Fibonacci Entry Bands [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:27:13.869Z
+957,Smart Breakout Targets [WillyAlgoTrader],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:28:14.386Z
+958,Algo Market Structure (Nephew_Sam_),OK,,OK,https://www.tradingview.com/v/o0pJo9hm/,2026-07-08T18:30:36.045Z
+959,Volume Delta [hapharmonic],OK,,OK,https://www.tradingview.com/v/n4NK9sLH/,2026-07-08T18:33:02.677Z
+960,Trailing SL Strategy [QuantNomad],OK,,OK,https://www.tradingview.com/v/n3vj0MIi/,2026-07-08T18:35:46.215Z
+961,Multi ZigZag Harmonic Patterns,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:36:42.887Z
+962,Support & Resistance AI (K means/median) [ThinkLogicAI],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:37:40.694Z
+963,Double Top/Bottom - Ultimate (OS),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:41:01.579Z
+964,FVG Positioning Average [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 122,SKIP,,2026-07-08T18:42:14.455Z
+965,Buy sell wait,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:43:18.438Z
+966,Trend Line,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:44:15.341Z
+967,Predictive Channels [LuxAlgo],OK,,OK,https://www.tradingview.com/v/U8SB8fWq/,2026-07-08T18:46:37.586Z
+968,Trend Lines Pro for Indicators,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T18:48:00.936Z
+969,Smart Money Index (SMI),OK,,OK,https://www.tradingview.com/v/PQEvcezt/,2026-07-08T18:50:42.017Z
+970,Bollinger Band with RSI,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:51:51.062Z
+971,Dynamic Support/Resistance Zones [ChartPrime],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T18:54:30.738Z
+972,Moving Average Exponential x 4,OK,,OK,https://www.tradingview.com/v/uKFF7Vc3/,2026-07-08T18:56:51.795Z
+973,buy/sell signals with Support/Resistance (InvestYourAsset),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:57:49.698Z
+974,Trend Filter (2-pole) [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T18:58:45.624Z
+975,Sweep institutional,REJECTED,Null/empty/NaN value found in indicator columns at row 299,SKIP,,2026-07-08T19:00:52.645Z
+976,Logarithmic Regression Channel-Trend [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:01:51.333Z
+977,Order Block Finder | Gold | ProjectSyndicate,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:02:49.236Z
+978,PPO Divergence Alerts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:03:46.367Z
+979,Reversal Signals [AlgoAlpha],OK,,OK,Not Available,2026-07-08T19:05:34.335Z
+980,Buy/Sell Volume Totals for Period,OK,,OK,https://www.tradingview.com/v/BWi50XyT/,2026-07-08T19:08:11.442Z
+981,Indicators Overlay,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:09:07.345Z
+982,ICT ADR Levels - Judas x Daily Range Meter°,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:10:04.957Z
+983,Pivot Levels [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:11:00.688Z
+984,Fibonacci Toolkit [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:13:04.671Z
+985,Gann High Low,OK,,OK,https://www.tradingview.com/v/XNQSLIYb/,2026-07-08T19:15:35.927Z
+986,Market Structure Confluence [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:16:33.156Z
+987,Stochastic Heat Map,OK,,OK,https://www.tradingview.com/v/7PRbCBjk/,2026-07-08T19:19:00.848Z
+988,GMMA Oscillator v1 by JustUncleL,OK,,OK,https://www.tradingview.com/v/YESRunMr/,2026-07-08T19:21:40.945Z
+989,Indicator: Custom COG channel,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:23:50.238Z
+990,Scalping Support Resistance Strategy,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:24:49.246Z
+991,Liquidity Heatmap LTF [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:26:05.174Z
+992,POCs and VAHs VALs - All and Non-Broken,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:29:32.767Z
+993,Relative Strength of Volume Indicators by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:30:27.618Z
+994,Range Identifier [LazyBear],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:31:34.588Z
+995,Multi-Timeframe VWAP,REJECTED,Null/empty/NaN value found in OHLCV columns at row 2,SKIP,,2026-07-08T19:32:35.836Z
+996,"Market Structure- ZigZag, Break of Structure & Order Blocks",OK,,OK,https://www.tradingview.com/v/NXgQEbZi/,2026-07-08T19:35:00.306Z
+997,Market Structure Trailing Stop [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:35:56.086Z
+998,Machine Learning Momentum Index (MLMI) [Zeiierman],OK,,OK,https://www.tradingview.com/v/I2X9DE84/,2026-07-08T19:38:15.913Z
+999,Heiken Ashi zero lag EMA v1.1 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:39:24.218Z
+1000,Fibonacci + Support/Resistant + Trendline (Price action),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:40:26.393Z
+1001,RS Rating,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:44:28.552Z
+1002,Evasive SuperTrend [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:45:34.635Z
+1003,Volume Profile [Makit0],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:46:38.891Z
+1004,RedK Momentum Bars (RedK Mo_Bars),OK,,OK,https://www.tradingview.com/v/O52gURXf/,2026-07-08T19:49:21.980Z
+1005,Laguerre Multi-Filter [DW],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:50:32.556Z
+1006,RSI Swing Signal,OK,,OK,https://www.tradingview.com/v/FL8PP1Dg/,2026-07-08T19:53:14.399Z
+1007,Fractal and Alligator Alerts by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:54:28.926Z
+1008,Momentum adjusted Moving Average by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T19:55:33.755Z
+1009,Gann Box (Zeiierman),FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T19:58:21.076Z
+1010,CRT + Daily Bias - Milana Trades,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T19:59:35.335Z
+1011,RVOL Relative Volume - Intraday,OK,,OK,https://www.tradingview.com/v/tCblSVVi/,2026-07-08T20:03:55.516Z
+1012,CM Time Based Vertical Lines,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:04:48.694Z
+1013,CM_ADX_V1,OK,,OK,Not Available,2026-07-08T20:07:19.062Z
+1014,Poor man's volume profile,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:08:18.689Z
+1015,Trend Speed Analyzer (Zeiierman),OK,,OK,https://www.tradingview.com/v/YUAV6jit/,2026-07-08T20:13:33.329Z
+1016,Volume Bubbles & Liquidity Heatmap [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:15:17.446Z
+1017,Liquidity Structure & Order Flow [LuxAlgo],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T20:18:58.381Z
+1018,FVG / Imbalance ZONES (@JP7FX),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:20:16.485Z
+1019,Double EMA WIth Pullback Buy Sell Signal - Smarter Algo,FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T20:23:53.687Z
+1020,Bullish Engulfing automatic finding script,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:25:24.796Z
+1021,"All-In-One Sessions, Weekly, Monday, Previous Highs/Lows",REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:26:22.763Z
+1022,Pip collector [LazyBear],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:27:17.067Z
+1023,SUPERTREND ATR WITH TRAILING STOP LOSS,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:29:05.076Z
+1024,Super Trend Daily 2.0 BF,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:32:00.150Z
+1025,Support/Resistance Zone [TORYS],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:33:07.948Z
+1026,Slow Heiken Ashi,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:34:46.067Z
+1027,Volume Bar Breakout and Breakdown  Indicator,OK,,OK,https://www.tradingview.com/v/V2cjsLhI/,2026-07-08T20:37:09.087Z
+1028,HTF Candle Profile [ChartPrime],OK,,OK,https://www.tradingview.com/v/5d1au2Dh/,2026-07-08T20:42:09.601Z
+1029,SMC + OB + FVG + Reversal + UT Bot + Hull Suite – by Fatich.id,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:43:01.746Z
+1030,Market Structure Inducements ICT [TradinFinder] CHoch BOS Sweeps,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:43:56.824Z
+1031,Bollinger Bands (Nadaraya Smoothed) | Flux Charts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:44:48.936Z
+1032,Fractal Break Imbalance / Fair Value Gap (FVG) / Liquidity Void,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:45:45.370Z
+1033,Liquidity Grab Zones | Flux Charts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:46:37.761Z
+1034,CM_Gap_Indicator_Intra-Day_V2.1,REJECTED,Null/empty/NaN value found in OHLCV columns at row 2,SKIP,,2026-07-08T20:47:32.209Z
+1035,Liquidity Sniper Pro,OK,,OK,https://www.tradingview.com/v/UbrDvLVh/,2026-07-08T20:49:45.016Z
+1036,Moon Cycles,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:50:34.772Z
+1037,Divergences for many indicators v2.0,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:51:24.179Z
+1038,AI Moving Average (Expo),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:52:16.497Z
+1039,Order Blocks Volume Delta 3D | Flux Charts,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:53:06.318Z
+1040,Zero Lag Liquidity [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T20:53:56.556Z
+1041,Open Interest Profile [Fixed Range] - By Leviathan,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:54:43.481Z
+1042,RSI Trendlines with Breakouts,OK,,OK,https://www.tradingview.com/v/YcKrOcXe/,2026-07-08T20:57:00.567Z
+1043,BOS/CHOCH Demand & Supply,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T20:57:48.869Z
+1044,Bayesian Trend Indicator [ChartPrime],OK,,OK,https://www.tradingview.com/v/rVEhAQDO/,2026-07-08T21:00:47.471Z
+1045,kNN Market Architecture [LuxAlgo],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T21:03:43.514Z
+1046,RSI Shift Zone [ChartPrime],OK,,OK,https://www.tradingview.com/v/5azMGL1V/,2026-07-08T21:08:09.478Z
+1047,Captain Backtest Model [TFO],OK,,OK,https://www.tradingview.com/v/tOQ8gnxj/,2026-07-08T21:13:35.314Z
+1048,A Useful MA Weighting Function For Controlling Lag & Smoothness,OK,,OK,https://www.tradingview.com/v/mheEtfmN/,2026-07-08T21:17:37.138Z
+1049,Auto Fibonacci and Gann Fan/Retracements Combo,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:18:56.892Z
+1050,Polynomial Regression Extrapolation [LuxAlgo],FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-08T21:24:59.312Z
+1051,TUE ADX/MACD Confluence V1.0,OK,,OK,https://www.tradingview.com/v/A37vsAuW/,2026-07-08T21:30:46.565Z
+1052,Indicator: Trend Trigger Factor,OK,,OK,https://www.tradingview.com/v/wSMZKu7B/,2026-07-08T21:34:24.874Z
+1053,Backtesting 3commas DCA Bot v2,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:35:39.349Z
+1054,Quarterly Earnings,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:36:36.733Z
+1055,Gann Fan,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:38:46.868Z
+1056,Price Action Doji Harami v0.2 by JustUncleL,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T21:39:41.788Z
+1057,Whalemap [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T21:42:58.427Z
+1058,Schaff Trend Cycle,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T21:45:30.871Z
+1059,Volume composition / Flowly Indicators,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T21:46:35.518Z
+1060,"Volume Profile - Custom Range, Interactive by DGT",REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:47:48.350Z
+1061,Balanced Price Range | Flux Charts,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:49:59.565Z
+1062,Indicator Panel,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:51:01.970Z
+1063,CM Stochastic POP Method 1 - Jake Bernstein_V1,OK,,OK,https://www.tradingview.com/v/ubxXu7fY/,2026-07-08T21:53:54.765Z
+1064,Moving average deviation rate,OK,,OK,https://www.tradingview.com/v/25KCgL9H/,2026-07-08T21:56:34.819Z
+1065,Elastic Volume Weighted Moving Average & Envelope [LazyBear],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T21:57:29.882Z
+1066,ICT SMT (fadi),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T21:58:27.506Z
+1067,MACD Divergence MultiTimeFrame [FantasticFox],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T21:59:43.517Z
+1068,72s Strat: Backtesting Adaptive HMA+ pt.1,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:00:53.484Z
+1069,Liquidity Heatmap [BigBeluga],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T22:03:50.770Z
+1070,Supply Demand Zones Pro,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:04:56.638Z
+1071,ICT Master Suite [Trading IQ],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:07:49.466Z
+1072,Auto TrendLines [HeWhoMustNotBeNamed],FAIL,Download failed: Could not find Table view,SKIP,,2026-07-08T22:10:25.430Z
+1073,Renko Chart,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:11:23.911Z
+1074,[JRL] MM Fibonacci,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:12:19.816Z
+1075,Smart Money Setup 01 [TradingFinder]Double Order Blocks Proof,REJECTED,Null/empty/NaN value found in indicator columns at row 300,SKIP,,2026-07-08T22:13:15.179Z
+1076,Pivot Range Pivot Boss,OK,,OK,https://www.tradingview.com/v/aaiSbWNj/,2026-07-08T22:15:40.179Z
+1077,Neglected Volume by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:16:37.241Z
+1078,CM Heikin-Ashi Candlesticks_V1,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:17:38.876Z
+1079,CM Renko Overlay Bars,OK,,OK,https://www.tradingview.com/v/UJhxAYwk/,2026-07-08T22:20:09.711Z
+1080,Luxy Super-Duper SuperTrend Predictor Engine and Buy/Sell signal,REJECTED,Null/empty/NaN value found in indicator columns at row 9,SKIP,,2026-07-08T22:21:13.405Z
+1081,Trend Lines + Figure Detect (cross) SL  + TP + RSI + Posicion,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-08T22:23:48.212Z
+1082,ICT Silver Bullet | Flux Charts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:24:46.682Z
+1083,Delta Reaction Zones [BOSWaves],OK,,OK,https://www.tradingview.com/v/G8tUvoPI/,2026-07-08T22:27:03.392Z
+1084,FRAMA Channel [BigBeluga],OK,,OK,https://www.tradingview.com/v/hskyfPWP/,2026-07-08T22:30:12.407Z
+1085,VolumeHeatmap | Experimental Version of Marketorders Matrix,OK,,OK,https://www.tradingview.com/v/peJ263bG/,2026-07-08T22:33:51.400Z
+1086,Rising & Falling Window Signals [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:34:44.939Z
+1087,AsianRange and KillZones,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:36:58.506Z
+1088,Liquidity Entry Zones,OK,,OK,https://www.tradingview.com/v/z3UjniQ6/,2026-07-08T22:39:22.883Z
+1089,Madrid Trend Squeeze,OK,,OK,https://www.tradingview.com/v/9bUUSzM3/,2026-07-08T22:42:10.464Z
+1090,Price Action Volumetric Order Blocks [UAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:43:10.587Z
+1091,Double RSI Simple Scalper @DaviddTech,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:44:18.328Z
+1092,High Probability Order Blocks [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:45:21.891Z
+1093,SMT Divergence ICT 01 [TradingFinder] Smart Money Technique,OK,,OK,https://www.tradingview.com/v/l3AfMB1k/,2026-07-08T22:48:09.768Z
+1094,Support Resistance Ultimate,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:50:20.326Z
+1095,Trading Psychology - Fear & Greed Index by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:51:24.597Z
+1096,Tick Data Detailed,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:52:28.888Z
+1097,Breakout Volume Delta | Flux Charts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:54:09.478Z
+1098,Inside Bar v2,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:55:08.872Z
+1099,RankDelta - Ranks - v1.0,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:56:08.513Z
+1100,Bjorgum TSI,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:57:08.921Z
+1101,Fibonacci Optimal Entry Zone [OTE] (Zeiierman),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:57:54.296Z
+1102,High & Low Of Custom Session - OpeningRange Breakout (Expo),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T22:58:48.309Z
+1103,Future Swing [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T22:59:47.807Z
+1104,Support-Resistance breakout,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:01:05.214Z
+1105,"Bill Williams. Alligator, Fractals & Res/Sup combined (by vlkvr)",REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:02:07.918Z
+1106,Bjorgum Triple EMA Strat,OK,,OK,https://www.tradingview.com/v/pr3d5mum/,2026-07-08T23:04:45.839Z
+1107,HTF Fair Value Gap [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:05:41.087Z
+1108,Stochastic Momentum Index (SMI) of Money Flow Index (MFI),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:06:42.202Z
+1109,Lucid SAR,OK,,OK,https://www.tradingview.com/v/OkACQQgL/,2026-07-08T23:09:18.409Z
+1110,Supply and Demand - Order Block - Energy Candles,REJECTED,Null/empty/NaN value found in indicator columns at row 300,SKIP,,2026-07-08T23:41:14.334Z
+1111,Weekly Opening Gap (cryptonnnite),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:42:04.900Z
+1112,Volumetric Order Flow Structure [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:42:54.827Z
+1113,Statistical Trailing Stop [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:43:49.041Z
+1114,Realtime Delta Volume Action [LucF],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:44:44.353Z
+1115,KINSKI Buy-Sell Signal,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:45:37.882Z
+1116,Liquidity Hunter [ChartPrime],OK,,OK,https://www.tradingview.com/v/E9z8Isgd/,2026-07-08T23:48:02.949Z
+1117,ICT Setup 04 [TradingFinder] SFP Sweep Liquidity Fake CHoCH/BOS,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:48:56.880Z
+1118,Average True Range Trailing Stops Colored,OK,,OK,https://www.tradingview.com/v/VP32b3aR/,2026-07-08T23:51:27.346Z
+1119,FVG Trailing Stop [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:52:12.761Z
+1120,Institutional Supply and Demand Zones,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-08T23:52:59.170Z
+1121,SUPER SUPERTREND THREE LINE PROFIT STRATEGY,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:53:46.540Z
+1122,MACD + RSI,OK,,OK,https://www.tradingview.com/v/6e7nAHs3/,2026-07-08T23:55:52.616Z
+1123,OptionsMillionaire SPY Moving Averages and Signals,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:56:38.053Z
+1124,CM_Pivot Points Daily To Intraday,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-08T23:57:25.350Z
+1125,TradingView Alerts (Expo),OK,,OK,https://www.tradingview.com/v/a0LJc0Tx/,2026-07-08T23:59:30.238Z
+1126,Multiple Moving Averages using only 1 Indicator!,OK,,OK,https://www.tradingview.com/v/7Bbkv1Ue/,2026-07-09T00:01:34.720Z
+1127,[JL] Supertrend Zone Pivot Point with zigzag fib,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:02:19.754Z
+1128,RSI Primed [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:03:06.583Z
+1129,Reversal and Breakout Signals [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:03:54.084Z
+1130,Sessions,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:05:24.294Z
+1131,Rsi_Snabbel,OK,,OK,https://www.tradingview.com/v/hpkX8Bcy/,2026-07-09T00:07:30.938Z
+1132,Market Structure Patterns (Nephew_Sam_),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:08:16.011Z
+1133,Fibonacci Bands [BigBeluga],OK,,OK,https://www.tradingview.com/v/KMzbEIJy/,2026-07-09T00:10:24.237Z
+1134,RedK Slow_Smooth Average (RSS_WMA),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:11:09.465Z
+1135,Quasimodo Pattern by EmreKb,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:11:55.171Z
+1136,Three Step Future-Trend [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:12:42.228Z
+1137,Cumulative Volume Delta,OK,,OK,Not Available,2026-07-09T00:14:16.900Z
+1138,IMGBasic - HTF Structure / Order Blocks / Breakers - V1.0,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:15:01.535Z
+1139,Trend Line Methods (TLM),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:15:47.818Z
+1140,Mutanabby_AI | Ultimate Algo | Remastered+,OK,,OK,https://www.tradingview.com/v/mZPs2LXx/,2026-07-09T00:17:52.262Z
+1141,ATR Trailing Stop by ceyhun,OK,,OK,https://www.tradingview.com/v/3h4LO8zH/,2026-07-09T00:20:05.980Z
+1142,Consecutive Candles | Multi Timeframe,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:20:52.248Z
+1143,Sonarlab - Smart Money Concepts,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:22:07.572Z
+1144,Zero Lag Signals For Loop [QuantAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:22:53.155Z
+1145,Super Pivots,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:23:39.158Z
+1146,ADX Volatility Waves [BOSWaves],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:24:26.615Z
+1147,Indicator: Premier Stochastic Oscillator,OK,,OK,https://www.tradingview.com/v/xewuyTA1/,2026-07-09T00:26:33.235Z
+1148,FVG Channel [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:27:19.695Z
+1149,Market Bias (CEREBR),OK,,OK,https://www.tradingview.com/v/mSAccJBe/,2026-07-09T00:29:32.147Z
+1150,AR Forecast Scatterplot [SS],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:30:19.627Z
+1151,Oscillator Workbench — Chart [LucF],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:31:58.201Z
+1152,Larsson Line,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:33:14.823Z
+1153,Liquidity Levels/Voids (VP) [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:34:52.274Z
+1154,Swing High/Low & HigherLow/LowerHigh,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:35:39.143Z
+1155,Bollinger Bands Regression Forecast [BigBeluga],OK,,OK,https://www.tradingview.com/v/HQFrNtJg/,2026-07-09T00:37:43.896Z
+1156,VWAP Supply & Demand Zones PRO,FAIL,Download failed: Could not find Table view,SKIP,,2026-07-09T00:39:55.779Z
+1157,CRT MTF + HTF Candles - Milana Trades,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:40:45.078Z
+1158,True Williams Alligator (SMMA),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:41:32.096Z
+1159,Easy Footprint,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:42:18.156Z
+1160,Higher Time Frame Chart Overlay,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:43:05.414Z
+1161,Triangular Moving Average (TMA) bands,OK,,OK,https://www.tradingview.com/v/kPV0Kl8w/,2026-07-09T00:45:11.269Z
+1162,MACD + RSI + ADX Strategy (ChatGPT-powered) by TradeSmart,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:46:02.930Z
+1163,RS: Footprint,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:46:50.377Z
+1164,Long Tail Candle by Oliver Velez,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:47:37.589Z
+1165,Bull vs Bear Power by DGT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:48:24.729Z
+1166,TPG.Buy sell RSI Scapl XAU,OK,,OK,https://www.tradingview.com/v/UIsbTtzD/,2026-07-09T00:50:30.081Z
+1167,Auto Fibo on Indicators,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:51:16.987Z
+1168,Simple Reversal Point,OK,,OK,https://www.tradingview.com/v/QJ5VgF0D/,2026-07-09T00:53:24.027Z
+1169,Auto Pattern Detector Targets [MarkitTick],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:54:09.279Z
+1170,Elliott Wave [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:54:55.937Z
+1171,Volume Delta Trailing Stop [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 9,SKIP,,2026-07-09T00:55:43.940Z
+1172,Volatility Stop MTF,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:56:30.478Z
+1173,B-Xtrender @Puppytherapy,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T00:57:18.243Z
+1174,VWAP Bands - Event Based [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T00:58:04.145Z
+1175,Multi-Timeframe Trend Indicator,OK,,OK,https://www.tradingview.com/v/xQSGzY4E/,2026-07-09T01:00:11.730Z
+1176,Uptrick: Volatility Weighted Cloud,OK,,OK,https://www.tradingview.com/v/282PpvrU/,2026-07-09T01:02:15.430Z
+1177,Delta Volume Columns Pro [LucF],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:03:02.378Z
+1178,Market Structure Volume Distribution [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:03:50.572Z
+1179,Custom Pattern Detection,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:04:38.200Z
+1180,RSI Trail [UAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:05:25.437Z
+1181,Stochastic Z-Score [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:06:12.688Z
+1182,Adaptive SuperTrend - Multi-Method,FAIL,Script extraction failed: No legend items found on chart legend.,FAIL,,2026-07-09T01:08:28.385Z
+1183,CISD with Alerts [neo|],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:09:14.046Z
+1184,AWESOME OSCILLATOR V2 by KIVANCfr3762,OK,,OK,https://www.tradingview.com/v/hmepisnj/,2026-07-09T01:11:24.204Z
+1185,Bullish and Bearish Engulfing Patterns auto detection,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:12:09.115Z
+1186,Bitcoin Power Law Corridor,OK,,OK,https://www.tradingview.com/v/UsGwzxD4/,2026-07-09T01:14:16.135Z
+1187,ICT Session Killzone Boxes & Deviations,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:15:01.474Z
+1188,Session Liquidity,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:15:47.548Z
+1189,RSI Volatility Suppression Zones [BigBeluga],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:16:33.711Z
+1190,Scalping EMA ADX RSI with Buy/Sell Alerts,OK,,OK,https://www.tradingview.com/v/PBZoZxX0/,2026-07-09T01:18:37.927Z
+1191,WaveTrend 3D,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:19:23.163Z
+1192,Chop and explode,OK,,OK,https://www.tradingview.com/v/5X5mhe3z/,2026-07-09T01:21:28.151Z
+1193,Auto Support Resistance [Free],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:22:13.654Z
+1194,Volumatic Trend [ChartPrime],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:23:00.016Z
+1195,RSI Trend,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:23:45.947Z
+1196,Darvas Box MTF Trend Tracker [LevelUp],FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-09T01:25:47.895Z
+1197,Breakout Detector (Previous MTF High Low Levels) [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:26:34.408Z
+1198,Institutional Order Flow Strength Classifier [LuxAlgo],OK,,OK,https://www.tradingview.com/v/gesy3qTZ/,2026-07-09T01:28:39.048Z
+1199,MMXM ICT [TradingFinder] Market Maker Model PO3 CHoCH/CSID + FVG,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:29:23.921Z
+1200,Flag Finder,OK,,OK,https://www.tradingview.com/v/DU228Vjm/,2026-07-09T01:31:28.543Z
+1201,Historical Price Projection [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:32:13.415Z
+1202,WaveTrend [LazyBear] vX by DGT,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:32:59.868Z
+1203,Simple Turnover with TOMCAP,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-09T01:35:00.249Z
+1204,SSL channel,OK,,OK,https://www.tradingview.com/v/xzIoaIJC/,2026-07-09T01:37:04.199Z
+1205,Automatic Daily Fibonacci v0.3 by JustUncleL,OK,,OK,https://www.tradingview.com/v/nE3WoDJy/,2026-07-09T01:39:08.334Z
+1206,Tweezers and Kangaroo Tail,OK,,OK,https://www.tradingview.com/v/EpnYFobI/,2026-07-09T01:41:12.934Z
+1207,🔥 SMC Reversal Engine v3.5 – Clean FVG + Dashboard,REJECTED,Null/empty/NaN value found in indicator columns at row 301,SKIP,,2026-07-09T01:42:41.486Z
+1208,Supertrended RSI [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:43:27.310Z
+1209,5 min bot scalper,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-09T01:45:27.046Z
+1210,FVG Detector [TradingFinder] Fair Value Gap-Imbalance-Mitigated,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:46:12.642Z
+1211,Smart Money Setup 06 [TradingFinder] Liquidity Sweeps + OB Swing,REJECTED,Null/empty/NaN value found in indicator columns at row 300,SKIP,,2026-07-09T01:46:57.846Z
+1212,RS: Market Profile,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T01:47:43.231Z
+1213,Daily Profile (Nephew_Sam_),REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:48:29.095Z
+1214,80 Level Finder SIMPLE,FAIL,Script extraction failed: Source code button not found.,FAIL,,2026-07-09T01:50:34.164Z
+1215,Williams Vix Fix Bottoms and Tops,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T01:51:21.678Z
+1216,Kaufman Moving Average Adaptive (KAMA),FAIL,Download failed: Could not find Table view,SKIP,,2026-07-09T01:53:29.463Z
+1217,Parabolic SAR [with Algorithm and Alerts],OK,,OK,https://www.tradingview.com/v/idpMOtsh/,2026-07-09T01:56:57.488Z
+1218,Daily Single Trade [SMRT Algo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T04:47:39.616Z
+1219,Normalized Smoothed MACD,OK,,OK,https://www.tradingview.com/v/TnOyxqKO/,2026-07-09T04:50:06.902Z
+1220,Base Finder,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T04:51:01.429Z
+1221,TrendMaster Pro 2.3 with Alerts,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T04:52:10.978Z
+1222,Trend Pivots Profile [BigBeluga],OK,,OK,https://www.tradingview.com/v/YNtbyDfo/,2026-07-09T04:54:28.089Z
+1223,Fibonacci Progression with Breaks [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T04:55:15.878Z
+1224,GOLD SUPER TREND ARROW SIGNALS STRATEGY WITH PERFORMANCE,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T04:56:22.312Z
+1225,Trendline Pivots [QuantVue],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T04:57:24.904Z
+1226,kyle algo v1,OK,,OK,https://www.tradingview.com/v/nXCvvrvj/,2026-07-09T05:00:55.802Z
+1227,Long Wick Detector [LuxAlgo],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T05:04:24.462Z
+1228,VWAP Trendfollow Strategy [wbburgin],OK,,OK,https://www.tradingview.com/v/XoR8rQaW/,2026-07-09T05:07:08.802Z
+1229,Liquidity Channels [TFO],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:08:16.927Z
+1230,CRT TBS,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:09:28.788Z
+1231,{INDYAN} RSI + MACD,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T05:10:43.418Z
+1232,Custom Indicator for Donchian Channels!!! System Rules Included!,OK,,OK,https://www.tradingview.com/v/Yrkdw0gR/,2026-07-09T05:13:34.594Z
+1233,Wedge Maker,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:14:45.218Z
+1234,Machine Learning Key Levels [AlgoAlpha],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:15:58.225Z
+1235,Position -/ lot size calculator - Sonarlab,FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-09T05:19:44.681Z
+1236,G-Channel Trend Detection,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T05:20:53.675Z
+1237,Nadaraya-Watson: Rational Quadratic Kernel (Non-Repainting),OK,,OK,https://www.tradingview.com/v/AWNvbPRM/,2026-07-09T05:23:44.813Z
+1238,Range Oscillator (Zeiierman),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:24:58.872Z
+1239,Pivot Order Blocks,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:27:30.511Z
+1240,BEST Engulfing + Breakout Strategy,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T05:30:02.456Z
+1241,ORB + VWAP + RSI + TP Levels + Order Flow (ES/NAS100),REJECTED,Null/empty/NaN value found in indicator columns at row 18,SKIP,,2026-07-09T05:31:19.841Z
+1242,Range Box (Nephew_Sam_),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:32:36.718Z
+1243,ATR Fibonacci Trend Envelopes [BigBeluga],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:33:50.010Z
+1244,Vilarso PRO,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:35:29.644Z
+1245,Detrended Rhythm Oscillator (DRO),OK,,OK,https://www.tradingview.com/v/nzvqcuSh/,2026-07-09T05:38:25.449Z
+1246,Stoch+RSI With Color Combination.,OK,,OK,https://www.tradingview.com/v/5gmbUNQV/,2026-07-09T05:41:21.245Z
+1247,Market Structure [TFO],REJECTED,Null/empty/NaN value found in indicator columns at row 299,SKIP,,2026-07-09T05:42:38.985Z
+1248,iFVG (BPR),REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T05:45:10.556Z
+1249,Regression Channel [DW],OK,,OK,https://www.tradingview.com/v/xnMdv0lA/,2026-07-09T05:50:24.559Z
+1250,Momentum Bias Index [AlgoAlpha],REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T05:51:52.642Z
+1251,Ichimoku Cloud ALERT,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T05:53:44.234Z
+1252,Relative Volume RVOL Alerts,OK,,OK,https://www.tradingview.com/v/RAFaln44/,2026-07-09T05:58:01.138Z
+1253,[STRATEGY][RS]MicuRobert EMA cross V2,OK,,OK,https://www.tradingview.com/v/6YthKHw1/,2026-07-09T06:01:57.351Z
+1254,Faith Indicator,OK,,OK,https://www.tradingview.com/v/ev2TidhJ/,2026-07-09T06:06:34.587Z
+1255,Candlestick Channels [LuxAlgo],OK,,OK,https://www.tradingview.com/v/pzUpBSIm/,2026-07-09T06:11:17.664Z
+1256,Fractals,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T06:13:59.846Z
+1257,Industry Group Strength,REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T06:15:24.612Z
+1258,ICT Propulsion Block [LuxAlgo],REJECTED,No indicator columns found (only OHLCV columns present),SKIP,,2026-07-09T06:16:43.890Z
+1259,Philakone 55 EMA Swing Trading Strategy,OK,,OK,https://www.tradingview.com/v/tOKp5kg4/,2026-07-09T06:20:51.801Z
+1260,GainzyPoo 45m Intraday LRAIC Indicator,FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-09T06:26:02.946Z
+1261,RSI versus SMA (no repaint),OK,,OK,https://www.tradingview.com/v/wDLCPh1I/,2026-07-09T06:42:08.800Z
+1262,VSA Volume,REJECTED,Null/empty/NaN value found in indicator columns at row 2,SKIP,,2026-07-09T06:45:17.723Z
+1263,Fractal Support and Resistance [BigBeluga],FAIL,Download failed: CSV verification failed: 'Volume' column is missing or CSV is invalid.,SKIP,,2026-07-09T06:54:48.349Z
