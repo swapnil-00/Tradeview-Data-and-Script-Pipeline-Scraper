@@ -1,6 +1,11 @@
 node_modules/
 .env
 User_Data/
+# The pre-scraped script library ships to the runner via Google Drive
+# (allscripts.zip), NOT via git — it's 114 MB, over GitHub's 100 MB file limit.
+*.zip
+InputForScript/allscripts.zip
+InputForScript/download_script_status.csv
 # Plaintext session must NEVER be committed. Only the encrypted ci/session.enc is.
 session.json
 ci/session.json

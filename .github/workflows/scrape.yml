@@ -192,6 +192,36 @@ jobs:
             echo "Scheduled: indices $FROM..$TO (last index is $END)"
           fi
 
+      # Cache the pre-scraped library ZIP so it downloads from Drive only once,
+      # then restores from cache in seconds on every later run. Bump the key
+      # (v1 -> v2) whenever you upload a newer allscripts.zip to Drive.
+      - name: Restore allscripts library zip (cache)
+        id: allscripts_cache
+        uses: actions/cache@v4
+        with:
+          path: allscripts.zip
+          key: allscripts-zip-v1
+
+      - name: Download allscripts library (if cache miss)
+        if: steps.allscripts_cache.outputs.cache-hit != 'true'
+        run: |
+          echo "Cache miss — pulling allscripts.zip from Drive."
+          rclone copy "gdrive:Finalop1lack/allscripts.zip" . \
+            --config ~/.config/rclone/rclone.conf --stats-one-line -v || true
+
+      # Extract the library into Finalop1lack/allscripts so pipeline.js can copy
+      # from it and skip Phase 1 scraping for scripts we already have. If the ZIP
+      # is missing, we just log a warning and scrape normally (nothing breaks).
+      - name: Extract allscripts library
+        run: |
+          if [ -f allscripts.zip ]; then
+            mkdir -p Finalop1lack
+            unzip -q -o allscripts.zip -d Finalop1lack/
+            echo "Library ready: $(find Finalop1lack/allscripts -type f 2>/dev/null | wc -l) scripts."
+          else
+            echo "::warning::allscripts.zip not found — Phase 1 cache disabled this run (will scrape normally)."
+          fi
+
       - name: Run scraper
         id: run
         if: steps.plan.outputs.done == 'false'
@@ -241,6 +271,7 @@ jobs:
         if: always()
         run: |
           rclone copy Finalop1lack "gdrive:Finalop1lack" \
+            --exclude "allscripts/**" \
             --config ~/.config/rclone/rclone.conf \
             --transfers 4 --checkers 8 --drive-chunk-size 64M \
             --fast-list --stats-one-line --stats 15s -v

@@ -14,6 +14,10 @@ const CONFIG = {
     inputFilePath: path.resolve(__dirname, "InputForScript", "unique_indicator_names.txt"),
     scriptOutputDir: path.resolve(__dirname, "Finalop1lack", "script"),
     csvOutputDir: path.resolve(__dirname, "Finalop1lack", "csv"),
+    // Pre-scraped script library. If a script already lives here, Phase 1 copies
+    // it instead of re-extracting from TradingView. Populated on the runner by
+    // extracting allscripts.zip; on a laptop it can point at your local library.
+    allScriptsDir: path.resolve(__dirname, "Finalop1lack", "allscripts"),
     logsDir: path.resolve(__dirname, "Logs"),
     maxRetries: 3,
 };
@@ -1210,7 +1214,26 @@ async function main() {
             let scriptErr = null;
 
             if (runMode === "both" || runMode === "script") {
-                for (let attempt = 1; attempt <= CONFIG.maxRetries; attempt++) {
+                // ── Cache: reuse a pre-scraped script from the library if present ──
+                const cachedScriptPath = path.join(CONFIG.allScriptsDir, `${normalizedName}.txt`);
+                if (normalizedName && fs.existsSync(cachedScriptPath)) {
+                    console.log(`\n📄 [Phase 1] Extracting Script for idx ${idx}: "${indicatorName}"`);
+                    try {
+                        if (!fs.existsSync(CONFIG.scriptOutputDir)) fs.mkdirSync(CONFIG.scriptOutputDir, { recursive: true });
+                        fs.copyFileSync(cachedScriptPath, scriptPath);
+                        const m = fs.readFileSync(scriptPath, "utf-8").match(/SOURCE:\s*(.+)/);
+                        sourceUrl = m ? m[1].trim() : "cached";
+                        scriptSuccess = true;
+                        scriptTime = "0";
+                        console.log(`   ♻️  Found in allscripts cache — copied, extraction skipped.`);
+                        console.log(`   💾 Pine Script saved: ${scriptPath}`);
+                    } catch (e) {
+                        console.error(`   ⚠️ Cache copy failed (${e.message}) — falling back to live extraction.`);
+                        scriptSuccess = false;
+                    }
+                }
+
+                for (let attempt = 1; !scriptSuccess && attempt <= CONFIG.maxRetries; attempt++) {
                     try {
                         if (attempt > 1) {
                             console.log(`   🔄 [Script] Retry ${attempt}/${CONFIG.maxRetries}...`);
