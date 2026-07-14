@@ -131,7 +131,13 @@ jobs:
           START=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | head -1)
           END=$(grep -oE '^[0-9]+' "$INPUT" | sort -n | tail -1)
           BATCH="${{ github.event.inputs.batch_size }}"
-          BATCH="${BATCH:-50}"
+          # Coerce blank / 0 / negative / non-numeric to the default 50. The bare
+          # "${BATCH:-50}" only catches EMPTY, not "0" — a 0 built an inverted
+          # range like --from 5240 --to 5239 and crashed the scraper.
+          if ! printf '%s' "$BATCH" | grep -qE '^[0-9]+$' || [ "$BATCH" -lt 1 ]; then
+            echo "batch_size '$BATCH' is invalid — using 50."
+            BATCH=50
+          fi
           CURSOR_FILE="ci/state/cursor.txt"
 
           FROM_IN="${{ github.event.inputs.start_override }}"
